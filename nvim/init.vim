@@ -17,14 +17,41 @@ set expandtab
 set tabstop=2
 set softtabstop=2
 set wildmode=full
+set mouse=a
+set splitbelow
+set splitright
 filetype plugin indent on
 
 
-"vim-plug
-call plug#begin('~/.config/nvim/plugin')
+"ale stuff
+let g:ale_sign_column_always = 1
+let g:ale_linters = {
+\   'javascript': ['eslint'],
+\}
+let g:ale_fixers = {
+\   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\   'javascript': ['eslint'],
+\}
+let g:ale_completion_enabled = 1
+let g:ale_sign_error = '>>'
+let g:ale_sign_warning = '--'
+let g:ale_set_highlights = 0
 
-" NERDTree
-"Plug 'scrooloose/nerdtree'
+"vim-plug
+call plug#begin('~/.config/nvim/plugged')
+
+
+" JavaScript {{{4
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+Plug 'rhysd/npm-debug-log.vim'
+Plug 'neovim/node-host',                  { 'do': 'npm install' }
+Plug 'cdata/vim-tagged-template'
+
+
+"ale
+Plug 'w0rp/ale'
+
 
 "unite
 Plug 'Shougo/unite.vim'
@@ -44,6 +71,11 @@ Plug 'honza/vim-snippets'
 
 "autocomplete plugin
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
+Plug 'wokalski/autocomplete-flow'
 
 "colorscheme plugin
 Plug 'Soares/base16.nvim'
@@ -59,21 +91,30 @@ Plug 'sbdchd/vim-run'
 Plug 'sheerun/vim-polyglot'
 
 "statuslines
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+"Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline-themes'
+Plug 'itchyny/lightline.vim'
+Plug 'bling/vim-bufferline'
+"Plug 'mengelbrecht/lightline-bufferline'
+
+"gitgutter
+Plug 'airblade/vim-gitgutter'
 
 "delimitate
 Plug 'Raimondi/delimitMate'
 
 "filer
 Plug 'Shougo/vimfiler.vim'
+
 "javacomplete2
 Plug 'artur-shaik/vim-javacomplete2'
 
 "emmet
 Plug 'mattn/emmet-vim'
 
+
 call plug#end()
+
 autocmd FileType java setlocal omnifunc=javacomplete#Complete
 nmap <F4> <Plug>(JavaComplete-Imports-AddSmart)
 imap <F4> <Plug>(JavaComplete-Imports-AddSmart)
@@ -88,8 +129,12 @@ imap <F7> <Plug>(JavaComplete-Imports-RemoveUnused)
 let base16colorspace=256 
 let g:deoplete#enable_at_startup = 1
 let g:base16_transparent_background = 0
+
+"airline
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 0
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
 
 "globals of neomake
 let g:myntastic_check_on_open=1
@@ -151,11 +196,36 @@ autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in
 autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 "autocmd vimenter * NERDTree
-let g:NERDTreeMinimaUI=1
-let g:NERDTreeDirArrows=0
+let g:NERDTreeMinimaUI=2
+let g:NERDTreeDirArrows=2
 
 "hybrid
 set background=dark
 "colorscheme murphy 
 "colorscheme tomorrow-night-eighties
 colorscheme dark_plus
+
+" lightline stuff
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'fugitive#head'
+      \ },
+      \ }
+let g:lightline#bufferline#show_number  = 1
+let g:lightline#bufferline#shorten_path = 0
+let g:lightline#bufferline#unnamed      = '[No Name]'
+
+let g:lightline                  = {}
+let g:lightline.tabline          = {'left': [['buffers']], 'right': [['close']]}
+let g:lightline.component_expand = {'buffers': 'lightline#bufferline#buffers'}
+let g:lightline.component_type   = {'buffers': 'tabsel'}
+autocmd BufWritePost,TextChanged,TextChangedI * call lightline#update()
+
+" JS stuff
+let g:deoplete#sources#flow#flow_bin = 'flow' 
+autocmd FileType javascript set formatprg=prettier\ --stdin
