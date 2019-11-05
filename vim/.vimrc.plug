@@ -1,0 +1,70 @@
+call plug#begin('~/vimplug-plugins')
+
+"Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+
+" JavaScript {{{4
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+Plug 'rhysd/npm-debug-log.vim'
+Plug 'cdata/vim-tagged-template'
+
+"ale
+Plug 'w0rp/ale'
+
+"unite
+Plug 'Shougo/unite.vim'
+
+"neoformat
+Plug 'sbdchd/neoformat'
+
+"indentations
+Plug 'Yggdroot/indentLine'
+
+"supertab
+Plug 'ervandew/supertab'
+
+"snippets
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
+"autocomplete plugin
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
+Plug 'wokalski/autocomplete-flow'
+
+"neomake
+Plug 'neomake/neomake'
+
+"vim-run 
+Plug 'sbdchd/vim-run'
+
+"vim-polyglot
+Plug 'sheerun/vim-polyglot'
+
+"statuslines
+Plug 'itchyny/lightline.vim'
+Plug 'bling/vim-bufferline'
+Plug 'mengelbrecht/lightline-bufferline'
+
+"gitgutter
+Plug 'airblade/vim-gitgutter'
+
+"delimitate
+Plug 'Raimondi/delimitMate'
+
+"filer
+Plug 'Shougo/vimfiler.vim'
+
+"javacomplete2
+Plug 'artur-shaik/vim-javacomplete2'
+
+"emmet
+Plug 'mattn/emmet-vim'
+
+"colors
+Plug 'flazz/vim-colorschemes'
+
+call plug#end()

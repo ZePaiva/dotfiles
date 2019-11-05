@@ -1,0 +1,55 @@
+#!/bin/bash
+###############################################################################################################
+#   Filename: i3/i3barcmus                                                                                    #
+# Maintainer: Yash Srivastav <yashsriv01@gmail.com>                                                           #
+#        URL: http://github.com/yashsriv/dotfiles                                                             #
+#                                                                                                             #
+# Adds support for cmus in i3 bar                                                                             #
+###############################################################################################################
+
+stat=$(cmus-remote -Q 2> /dev/null | grep status | cut -d ' ' -f2-)
+duration=$(cmus-remote -Q 2> /dev/null | grep duration | cut -d ' ' -f2-)
+current=$(cmus-remote -Q 2> /dev/null | grep position | cut -d ' ' -f2-)
+artist=$(cmus-remote -Q 2> /dev/null | grep ' artist ' | cut -d ' ' -f3-)
+song=$(cmus-remote -Q 2> /dev/null | grep title | cut -d ' ' -f3-)
+songPath=$(cmus-remote -Q | grep file | sed -e 's/file //g')
+songName=$(basename "$songPath" | sed -e 's/.mp3//g' | sed -e 's/.flac//g' )
+let total_mins=$duration/60
+let total_secs=$duration%60
+let current_mins=$current/60
+let current_secs=$current%60
+if [ "$stat" != "" ]; then
+  if [[ "$stat" == "playing" ]]; then
+    echo -n " ▶  "
+  else
+    echo -n " ▋▋ "
+  fi
+  if [[ "$artist" != "" ]]; then
+    echo -n "$artist - "
+  fi
+  if [[ "$song" != "" ]]; then
+    echo -n "$song"
+  else
+    echo -n "$songName"
+  fi
+  echo -n " || $current_mins:"
+  if [[ $total_secs -lt 10 && $current_secs -lt 10 ]]; then
+    echo "0$current_secs / $total_mins:0$total_secs"
+  elif [[ $total_secs -lt 10 && $current_secs -ge 10 ]]; then
+    echo "$current_secs / $total_mins:0$total_secs"
+  elif [[ $total_secs -ge 10 && $current_secs -lt 10 ]]; then
+    echo "0$current_secs / $total_mins:$total_secs"
+  else
+    echo "$current_secs / $total_mins:$total_secs"
+  fi
+  if [[ "$song" != "" ]]; then
+    echo "$song"
+  else
+    echo "$songName"
+  fi
+  if [[ "$stat" == "playing" ]]; then
+    echo "#c6ffF0"
+  else
+    echo "#ff1111"
+  fi
+fi
