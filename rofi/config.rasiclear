@@ -1,0 +1,11 @@
+configuration {
+	width: 1920;
+	lines: 20;
+	location: 0;
+	padding: 50;
+	show-icons: true;
+	sidebar-mode: true;
+	eh: 1;
+	line-margin: 5;
+	hide-scrollbar: true;
+}
