@@ -58,9 +58,6 @@ Plug 'Raimondi/delimitMate'
 "filer
 Plug 'Shougo/vimfiler.vim'
 
-"javacomplete2
-Plug 'artur-shaik/vim-javacomplete2'
-
 "emmet
 Plug 'mattn/emmet-vim'
 
@@ -77,5 +74,11 @@ Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 " Using a tagged release; wildcard allowed (requires git 1.9.2 or above)
 Plug 'fatih/vim-go', { 'tag': '*' }
 
+" c++ plugins
+Plug 'vim-scripts/Cpp11-Syntax-Support'
+Plug 'bfrg/vim-cpp-modern'
+
+" code time
+Plug 'wakatime/vim-wakatime'
 
 call plug#end()
