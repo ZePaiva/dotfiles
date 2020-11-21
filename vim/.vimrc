@@ -19,6 +19,8 @@ set autoindent
 set smartindent
 set noexpandtab
 set number
+set exrc
+set secure
 filetype plugin indent on
 if has("autocmd")
   filetype plugin indent on
@@ -91,6 +93,8 @@ set incsearch
 set ignorecase
 " Include only uppercase words with uppercase search term
 set smartcase
+" Clear highlightings
+nnoremap <esc><esc> :noh<return>
 
 " Store info from no more than 100 files at a time, 9999 lines of text, 100kb of data. Useful for copying large amounts of data between files.
 set viminfo='100,<9999,s100
@@ -136,7 +140,6 @@ let g:ale_sign_column_always = 1
 let g:ale_linters = {
 \   'javascript': ['eslint'],
 \   'python': ['pylint', 'black', 'isort'],
-\   'c': ['gcc', 'clang'],
 \   'json': ['fixjson'],
 \   'java': ['javac', 'checkstyle'],
 \   'xml': ['xmllint'],
@@ -147,17 +150,20 @@ let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \   'javascript': ['eslint'],
 \   'python': ['black', 'isort'],
-\   'c': ['gcc', 'clang'],
 \   'json': ['fixjson'],
 \   'java': ['javac', 'checkstyle'],
 \   'xml': ['xmllint'],
 \   'yaml': ['prettier'],
-\		'shell': ['shell-check']
+\		'shell': ['shell-check'],
 \}
 let g:ale_completion_enabled = 1
 let g:ale_sign_error = '>>'
 let g:ale_sign_warning = '--'
 let g:ale_set_highlights = 0
+let g:ale_c_build_dir = "./build"                                                
+let g:ale_c_parse_makefile = 1                                                   
+let g:ale_cpp_gcc_options = '-std=c++17 -isystem /usr/include/c++/v1 -I/usr/include/c++/v1 -I/opt/ros/kinetic/include -I/usr/local/include -I/usr/include -I/usr/include/x86_64-linux-gnu -I./include'
+let g:ale_cpp_clang_options = '-std=c++17 -isystem /usr/include/c++/v1 -I/usr/include/c++/v1 -I/opt/ros/kinetic/include -I/usr/local/include -I/usr/include -I/usr/include/x86_64-linux-gnu -I./include'      
 
 "globals of neomake
 let g:myntastic_check_on_open=1
@@ -190,7 +196,7 @@ let g:syntastic_c_clang_check_sort=1
 let g:syntastic_c_remove_include_errors=1
 let g:syntastic_quiet_messages = { "level": "[]", "file": ['*_LOCAL_*', '*_BASE_*', '*_REMOTE_*']  }
 let g:syntastic_stl_format = '[%E{E: %fe #%e}%B{, }%W{W: %fw #%w}]'
-let g:syntastic_java_javac_options = "-g:none -source 8 -Xmaxerrs 5 -Xmaswarns 5" 
+" let g:syntastic_java_javac_options = "-g:none -source 8 -Xmaxerrs 5 -Xmaswarns 5" 
 
 "globals of vim-run
 "let g:run_cmd_java = ['javac', '-g:none', run#defaults#fullfilepath(),'&&', 'java', run#defaults#basefilename()]
@@ -212,7 +218,14 @@ let delimitMate_expand_cr = 1
 "vimfiler
 let g:vimfiler_as_default_explorer = 1
 
+set termguicolors
 set background=dark
-"colorscheme badwolf
-colorscheme gruvbox
+"colorscheme panic
+colorscheme badwolf
+"colorscheme gruvbox
 
+" libclang
+let g:clang_library_path='/usr/lib/llvm-10/lib/libclang.so.1'
+
+" pdf2text
+:command! -complete=file -nargs=1 Rpdf :r !pdftotext -nopgbrk <q-args> -

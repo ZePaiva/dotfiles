@@ -29,10 +29,6 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
 "autocomplete plugin
-Plug 'autozimu/LanguageClient-neovim', {
-    \ 'branch': 'next',
-    \ 'do': 'bash install.sh',
-    \ }
 Plug 'wokalski/autocomplete-flow'
 
 "neomake
@@ -78,7 +74,26 @@ Plug 'fatih/vim-go', { 'tag': '*' }
 Plug 'vim-scripts/Cpp11-Syntax-Support'
 Plug 'bfrg/vim-cpp-modern'
 
+" devicons
+Plug 'ryanoasis/vim-devicons'
+
 " code time
 Plug 'wakatime/vim-wakatime'
+
+" syntax cpp
+"Plug 'vim-syntastic/syntastic'
+
+" autocomplete
+Plug 'xavierd/clang_complete'
+
+" youcompleteme plugin
+Plug 'Valloric/YouCompleteMe'
+
+" panic
+Plug 'jdsimcoe/panic.vim'
+
+" local manager
+Plug 'LucHermitte/lh-vim-lib'
+Plug 'LucHermitte/local_vimrc'
 
 call plug#end()

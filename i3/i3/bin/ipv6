@@ -1,9 +1,0 @@
-wlp3s0=$(ifconfig wlp3s0 | grep 'inet6 2' | sed -e 's/fe80.*//g' | sed -e 's/inet6//g' | sed -e 's/ prefixlen .*//g' | sed -e 's/^\s*//')
-enp4s0=$(ifconfig enp4s0 | grep 'inet6 2' | sed -e 's/fe80.*//g' |sed -e 's/inet6//g' | sed -e 's/ prefixlen .*//g' | sed -e 's/^\s*//')
-if [[ -z "$enp4s0" && -z "$wlp3s0" ]]; then
-	echo " ----.----.----.----.----.----.----.---- "
-elif [ -z "$enp4s0" ]; then
-	echo " W $wlp3s0"
-else
-	echo " E $enp4s0"
-fi

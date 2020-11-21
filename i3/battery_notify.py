@@ -1,0 +1,1 @@
+/home/zero/Documents/gits/bendots/scripts/wm-enhancements/battery_notify.py

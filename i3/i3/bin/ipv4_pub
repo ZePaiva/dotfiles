@@ -1,3 +1,0 @@
-#!/bin/bash
-a=$(wget -q -O - checkip.dyndns.org | sed -e 's/[^[:digit:]\|.]//g')
-echo " $a"
