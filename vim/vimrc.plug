@@ -64,9 +64,6 @@ Plug 'flazz/vim-colorschemes'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 
-" Using a non-master branch
-Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
-
 " Using a tagged release; wildcard allowed (requires git 1.9.2 or above)
 Plug 'fatih/vim-go', { 'tag': '*' }
 
@@ -87,7 +84,7 @@ Plug 'wakatime/vim-wakatime'
 Plug 'xavierd/clang_complete'
 
 " youcompleteme plugin
-Plug 'Valloric/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe', {'do': './install.py'}
 
 " panic
 Plug 'jdsimcoe/panic.vim'
@@ -96,4 +93,6 @@ Plug 'jdsimcoe/panic.vim'
 Plug 'LucHermitte/lh-vim-lib'
 Plug 'LucHermitte/local_vimrc'
 
+" rust
+Plug 'rust-lang/rust.vim'
 call plug#end()

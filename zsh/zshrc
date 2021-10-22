@@ -1,0 +1,118 @@
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+export ZSH="/home/zero/.oh-my-zsh"
+
+ZSH_THEME="lukerandall"
+
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
+export UPDATE_ZSH_DAYS=7
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+# COMPLETION_WAITING_DOTS="true"
+
+HIST_STAMPS="mm/dd/yyyy"
+
+plugins=(
+rails
+rvm
+ruby
+zsh-syntax-highlighting
+zsh-completions
+git
+)
+
+autoload -U compinit && compinit
+
+source $ZSH/oh-my-zsh.sh
+
+# Preferred editor for local and remote sessions
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='vim'
+fi
+
+###################################################################################################
+# KiTTY
+alias icat="kitty +kitten icat"
+
+###################################################################################################
+# ssh
+export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+###################################################################################################
+# PATHS
+export PATH="/home/zero/.bin:$PATH"
+export PATH="/home/zero/.conky:$PATH"
+export GEM_HOME=~/.gem/ruby/2.5.0/bin
+export PATH="$PATH:~/.gem/ruby/2.5.0/bin"
+export PATH="~/.local/bin:$PATH"
+
+###################################################################################################
+# aliases
+alias open="xdg-open"
+alias hibernate="systemctl hibernate"
+alias suspend="systemctl suspend"
+alias del="rmtrash"
+alias ls="lsd"
+alias python="python3"
+
+###################################
+# work aliases
+alias tese="cd ~/Documents/Tese"
+alias projs="cd ~/Documents/projs"
+alias vm="vboxmanage"
+alias pip="pip3"
+
+#######################################################
+# Spotify
+export SPICETIFY_INSTALL="/home/zero/spicetify-cli"
+export PATH="$SPICETIFY_INSTALL:$PATH"
+alias adfree_spotify="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
+
+######################################################
+# Java
+alias java13="java"
+alias java8="/usr/lib/jvm/java-8-openjdk/jre/bin/java"
+
+###################################################################################################
+# docker stuff
+fpath=(~/.zsh/completion $fpath)
+autoload -Uz compinit && compinit -i
+
+
+###################################################################################################
+# Tokens for git
+IT_GITLAB_TOKEN=Zytsz53kPZCyTFyQHMpi
+GITHUB_TOKEN=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
+
+IT_getToken () {
+  echo $IT_GITLAB_TOKEN | xclip -sel clip
+}
+
+GH_getToken() {
+  echo $GITHUB_TOKEN | xclip -sel clip
+}
+
+###################################################################################################
+# Google Ads API
+export GOOGLE_ADS_CLIENT_ID=349889283866-fccagq32fiejk76p6pl5rk3eed922nhm.apps.googleusercontent.com
+export GOOGLE_ADS_CLIENT_SECRET=pqjuO3pk_EgSRHbHK-HyhnS_
+
+###################################################################################################
+# tmux stuff
+#if [[ ! $TERM =~ screen ]]; then
+#    exec tmux
+#fi
+
+###################################################################################################
+# pywall stuff
+cat ~/.cache/wal/sequences
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
