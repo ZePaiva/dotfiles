@@ -84,20 +84,6 @@ alias java8="/usr/lib/jvm/java-8-openjdk/jre/bin/java"
 fpath=(~/.zsh/completion $fpath)
 autoload -Uz compinit && compinit -i
 
-
-###################################################################################################
-# Tokens for git
-IT_GITLAB_TOKEN=Zytsz53kPZCyTFyQHMpi
-GITHUB_TOKEN=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
-
-IT_getToken () {
-  echo $IT_GITLAB_TOKEN | xclip -sel clip
-}
-
-GH_getToken() {
-  echo $GITHUB_TOKEN | xclip -sel clip
-}
-
 ###################################################################################################
 # Google Ads API
 export GOOGLE_ADS_CLIENT_ID=349889283866-fccagq32fiejk76p6pl5rk3eed922nhm.apps.googleusercontent.com
