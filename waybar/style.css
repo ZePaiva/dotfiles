@@ -67,6 +67,7 @@ window#waybar {
   border-color: #d65d0e;
 }
 
+#language,
 #tray {
   font-size: 14px;
   margin-top: 6px;

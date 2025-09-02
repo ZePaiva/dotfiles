@@ -10,6 +10,7 @@
   ],
 	"modules-center": [
     "hyprland/submap",
+    "hyprland/language",
     "tray",
     "clock",
     "custom/notification",
@@ -39,6 +40,11 @@
     },
     "active": "",
     "sort-by-number": true
+  },
+  "hyprland/language": {
+    "format": " {}",
+    "format-pt": "PT",
+    "format-en": "US"
   },
   "tray": {
     "show-passive-items": true,
