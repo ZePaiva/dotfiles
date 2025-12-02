@@ -1,7 +1,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-export ZSH="/home/zero/.oh-my-zsh"
+export ZSH="/home/jpaiva/.oh-my-zsh"
 
-ZSH_THEME="lukerandall"
+ZSH_THEME="amuse"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -31,14 +31,20 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
+  export EDITOR='nvim'
 else
-  export EDITOR='vim'
+  export EDITOR='nvim'
 fi
 
 ###################################################################################################
 # KiTTY
 alias icat="kitty +kitten icat"
+DISABLE_AUTO_TITLE=true
+case $TERM in 
+  xterm*)
+    precmd () {print -Pn "\e]0;$(basename $PWD)\a"}
+    ;;
+esac
 
 ###################################################################################################
 # ssh
@@ -46,8 +52,8 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 ###################################################################################################
 # PATHS
-export PATH="/home/zero/.bin:$PATH"
-export PATH="/home/zero/.conky:$PATH"
+export PATH="/home/jpaiva/.bin:$PATH"
+export PATH="/home/jpaiva/.conky:$PATH"
 export GEM_HOME=~/.gem/ruby/2.5.0/bin
 export PATH="$PATH:~/.gem/ruby/2.5.0/bin"
 export PATH="~/.local/bin:$PATH"
@@ -55,29 +61,10 @@ export PATH="~/.local/bin:$PATH"
 ###################################################################################################
 # aliases
 alias open="xdg-open"
-alias hibernate="systemctl hibernate"
-alias suspend="systemctl suspend"
-alias del="rmtrash"
 alias ls="lsd"
 alias python="python3"
-
-###################################
-# work aliases
-alias tese="cd ~/Documents/Tese"
-alias projs="cd ~/Documents/projs"
-alias vm="vboxmanage"
 alias pip="pip3"
-
-#######################################################
-# Spotify
-export SPICETIFY_INSTALL="/home/zero/spicetify-cli"
-export PATH="$SPICETIFY_INSTALL:$PATH"
-alias adfree_spotify="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
-
-######################################################
-# Java
-alias java13="java"
-alias java8="/usr/lib/jvm/java-8-openjdk/jre/bin/java"
+alias vim="vimx"
 
 ###################################################################################################
 # docker stuff
@@ -85,20 +72,175 @@ fpath=(~/.zsh/completion $fpath)
 autoload -Uz compinit && compinit -i
 
 ###################################################################################################
-# Google Ads API
-export GOOGLE_ADS_CLIENT_ID=349889283866-fccagq32fiejk76p6pl5rk3eed922nhm.apps.googleusercontent.com
-export GOOGLE_ADS_CLIENT_SECRET=pqjuO3pk_EgSRHbHK-HyhnS_
-
-###################################################################################################
-# tmux stuff
-#if [[ ! $TERM =~ screen ]]; then
-#    exec tmux
-#fi
-
-###################################################################################################
 # pywall stuff
 cat ~/.cache/wal/sequences
 
-# Generated for envman. Do not edit.
-[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+###################################################################################################
+# NOKIA CSFPOPS
+PAASRC=$(echo ~/.paasrc)
+POPS_VER="v1.6.2"
+alias csfpops='
+  docker run --rm -it \
+      --network host \
+      -v ${PAASRC}:/opt/.paasrc:rw \
+      csf-docker-delivered.repo.lab.pl.alcatel-lucent.com/csfpops:${POPS_VER} '
 
+###################################################################################################
+# Gerrit aliases
+alias acos="cd ~/GIT/gerrit_ACOS"
+alias nv_operator-container="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/assurance-opt-controller-docker/ && nvim ."
+alias nv_br-cronjobs="cd ~/GIT/gerrit_ACOS/NPM/backup-and-restore/nac-backup-cronjobs && nvim ."
+alias nv_br-charts="cd ~/GIT/gerrit_ACOS/NPM/backup-and-restore/nac-backup-charts && nvim ."
+alias nv_system-profiles="cd ~/GIT/gerrit_ACOS/NPM/deployment/system-profiles && nvim ."
+alias nv_commissioning="cd ~/GIT/gerrit_ACOS/NPM/deployment/commissioning-build && nvim ."
+alias nv_acs-profiles="cd ~/GIT/gerrit_ACOS/NPM/deployment/acs-profiles && nvim ."
+alias nv_nacops="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/nacops && nvim ."
+alias nv_nacops-chart="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/nacops-chart && nvim ."
+alias nv_nacops-profile="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/nacops-profile && nvim ."
+alias nv_nbase="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/nbase-chart && nvim ."
+alias nv_gr-manager-docker="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/nac-gr-manager-docker && nvim ."
+alias nv_gr-manager-chart="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/nac-gr-manager-chart && nvim ."
+alias nv_workloads-docker="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/workloads-oam-ops && nvim ."
+alias nv_workloads-chart="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/workloads-oam-ops-charts && nvim ."
+alias nv_dimensioning="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/dimensioning && nvim ."
+alias nv_nac-orchestrator="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/nac-orchestrator && nvim ."
+alias nv_hooks-docker="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/hooks-actions && nvim ."
+alias nv_hooks-chart="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/hooks-actions-charts && nvim ."
+alias nv_AD="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/nac-ayncloud_deployment && nvim ."
+alias nv_AD_CI="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/nac-anycloud_deployment_for_ci && nvim ."
+alias nv_AD_GR="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/nac-anycloud_deployment_gr_manager && nvim ."
+alias nv_artifacts="cd ~/GIT/gerrit_ACOS/NPM/install/dimensioning/artifacts && nvim ."
+alias nv_dr="cd ~/GIT/gerrit_ACOS/NPM/disaster-recovery/dr-build && nvim ."
+alias nv_CI="cd ~/GIT/gerrit_ACOS/NPM/CI/tools/jenkins_lib && nvim ."
+alias nv_nacgroc="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/dimensioning/nacgrorc && nvim ."
+alias nv_AD="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/nac-ayncloud_deployment && nvim ."
+alias nv_nac-orchestrator="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/nac-orchestrator && nvim ."
+alias nv_nbase="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/nbase-chart && nvim ."
+alias nv_nacops-chart="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/nacops-chart && nvim ."
+alias nv_hooks-actions-chart="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/hooks-actions-charts && nvim ."
+alias nv_nacops="cd ~/GIT/gerrit_ACOS/NPM/install/customerlike/nacops && nvim ."
+alias nv_commissioning="cd ~/GIT/gerrit_ACOS/NPM/deployment/commissioning-build && nvim ."
+alias nv_acs-profiles="cd ~/GIT/gerrit_ACOS/NPM/deployment/acs-profiles && nvim ."
+
+###################################################################################################
+# Labs aliases
+alias oraops="docker run --rm --net=host --privileged -it -v $HOME/.orarc:/opt/.orarc:rw npm-docker-releases.repo.cci.nokia.net/oraops:1.1.0-30"
+
+###################################################################################################
+# docker aliases
+clean_docker () {
+  docker stop $(docker ps -aq)
+  docker kill $(docker ps -aq)
+  docker rm $(docker ps -aq)
+  docker rmi $(docker ps -aq)
+}
+
+###################################################################################################
+# nac-orchestrator aliases
+source $HOME/.config/drs_utils.sh
+
+export NAC_ORC_DIR="/home/jpaiva/Documents/NAC_ORCHESTRATOR_DIR"
+create_orchestrator () {
+  podman kill nac-default
+  podman rm nac-default
+  scripts=$(ls -l $NAC_ORC_DIR | awk '{print $11}' | grep orchestrator)
+  container=$(ls -l $NAC_ORC_DIR | awk '{print $11}' | grep anycloud)
+  python $NAC_ORC_DIR/setupEnvironment.py --workdir $NAC_ORC_DIR --container norc-docker-releases.repo.cci.nokia.net/anycloud_tools_external --scripts $NAC_ORC_DIR/$scripts  --name nac-default --containerManager podman 
+}
+
+create_orchestrator_named () {
+  podman kill $1 
+  podman rm $1
+  scripts=$(ls -l $NAC_ORC_DIR | awk '{print $11}' | grep orchestrator)
+  container=$(ls -l $NAC_ORC_DIR | awk '{print $11}' | grep anycloud)
+  cp $NAC_ORC_DIR $NAC_ORC_DIR/workdir_$1 -a 
+  python $NAC_ORC_DIR/workdir_$1/setupEnvironment.py --workdir $NAC_ORC_DIR/workdir_$1 --container norc-docker-releases.repo.cci.nokia.net/anycloud_tools_external --scripts $NAC_ORC_DIR/workdir_$1/$scripts  --name $1 --containerManager podman 
+}
+
+create_orchestrator_scratch () {
+  rm -r $NAC_ORC_DIR/{product_build,scripts,config,global}
+  podman kill nac-default
+  podman rm nac-default
+  scripts=$(ls -l $NAC_ORC_DIR | awk '{print $11}' | grep orchestrator)
+  container=$(ls -l $NAC_ORC_DIR | awk '{print $11}' | grep anycloud)
+  python $NAC_ORC_DIR/setupEnvironment.py --workdir $NAC_ORC_DIR --container norc-docker-releases.repo.cci.nokia.net/anycloud_tools_external --scripts $NAC_ORC_DIR/$scripts  --name nac-default --containerManager podman 
+}
+
+update_orc () {
+  $NAC_ORC_DIR/update_tooling.sh
+  $NAC_ORC_DIR/update_images.sh
+}
+
+export NAC_JENKINS_DIR="/home/jpaiva/Documents/NAC_ORCHESTRATOR_JENKINS"
+create_orchestrator_jenkins () {
+  docker kill nac-orchestrator
+  docker rm nac-orchestrator
+  scripts=$(ls -l $NAC_JENKINS_DIR | awk '{print $11}' | grep orchestrator)
+  container=$(ls -l $NAC_JENKINS_DIR | awk '{print $11}' | grep anycloud)
+  tar -xzf $NAC_JENKINS_DIR/$scripts setupEnvironment.py -C $NAC_JENKINS_DIR
+  python $NAC_JENKINS_DIR/setupEnvironment.py --workdir $NAC_JENKINS_DIR --container $NAC_JENKINS_DIR/$container --scripts $NAC_JENKINS_DIR/$scripts  --name nac-orchestrator --containerManager docker
+}
+
+create_orchestrator_jenkins_scratch () {
+  rm -r $NAC_JENKINS_DIR/{product_build,scripts,config,global}
+  docker kill nac-orchestrator
+  docker rm nac-orchestrator
+  scripts=$(ls -l $NAC_JENKINS_DIR | awk '{print $11}' | grep orchestrator)
+  container=$(ls -l $NAC_JENKINS_DIR | awk '{print $11}' | grep anycloud)
+  python $NAC_JENKINS_DIR/setupEnvironment.py --workdir $NAC_JENKINS_DIR --container $NAC_JENKINS_DIR/$container --scripts $NAC_JENKINS_DIR/$scripts  --name nac-orchestrator --containerManager docker
+}
+
+update_orc () {
+  $NAC_JENKINS_DIR/update_tooling.sh
+  $NAC_JENKINS_DIR/update_images.sh
+}
+
+update_labs () {
+  git -C ~/Documents/labs/ pull
+}
+
+login_lab () {
+  oc login api.$1.tre.nsn-rdnet.net:6443 -u nac -p nac1234 --insecure-skip-tls-verify
+}
+
+login_lab_admin () {
+  if [ -d ~/Documents/labs/configs/$1 ]; then
+    PWD=$(cat ~/Documents/labs/configs/${1}/config | grep VLAB_CLUSTER_PASSWORD | cut -d '=' -f2)
+    oc login api.$1.tre.nsn-rdnet.net:6443 -u kubeadmin -p $PWD --insecure-skip-tls-verify
+    if [ $? -ne 0 ]; then
+      echo "Login failed, check lab config"
+    fi
+  else
+    echo "Lab config not found, try updating"
+  fi
+}
+
+login_sandbox () {
+  oc login api.aao0142.tre.nsn-rdnet.net:6443 -u kubeadmin -p mLBg3-EaxQf-MxTAg-5GHZo --insecure-skip-tls-verify
+}
+
+login_vpn () {
+  vpn_status=$(nmcli -f GENERAL.STATE con show NOKIA-VPN)
+  if [ -z $vpn_status ]; then
+    nmcli con up NOKIA-VPN --ask
+    export HTTP_PROXY="http://ptamax01-proxy001.emea.nsn-net.net:8080"
+  else
+    nmcli con down NOKIA-VPN
+    unset HTTP_PROXY
+  fi
+}
+
+# go env vars
+export GOPROXY=https://repo.cci.nokia.net/proxy-golang-org
+export GOSUMDB=off
+export GOPATH=$HOME/go
+
+
+###################################################################################################
+# neovim 
+#export HTTP_PROXY="http://ptamax01-proxy001.emea.nsn-net.net:8080"
+export XDG_CONFIG_HOME="$HOME/.config"
+export PATH=$PATH:$GOPATH/bin
+if command -v zoxide > /dev/null; then
+  eval "$(zoxide init zsh)"
+fi
