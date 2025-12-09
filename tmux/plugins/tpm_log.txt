@@ -1,0 +1,1887 @@
+[2025-06-24 18:59:11.113]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-24 18:59:11.130]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/install_plugins
+[2025-06-24 18:59:11.181]	Installing "tmux-copycat"
+[2025-06-24 18:59:11.195]	Installing "tmux-cpu"
+[2025-06-24 18:59:11.208]	Installing "tmux-continuum"
+[2025-06-24 18:59:11.222]	Installing "tmux-resurrect"
+[2025-06-24 18:59:11.243]	Installing "tmux-sensible"
+[2025-06-24 18:59:11.256]	Already installed "tpm"
+[2025-06-24 18:59:12.040]	  "tmux-sensible" download success
+[2025-06-24 18:59:12.087]	  "tmux-cpu" download success
+[2025-06-24 18:59:12.109]	  "tmux-continuum" download success
+[2025-06-24 18:59:12.126]	  "tmux-copycat" download success
+[2025-06-24 18:59:12.975]	  "tmux-resurrect" download success
+[2025-06-24 18:59:13.040]	Done.
+
+[2025-06-24 18:59:44.826]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-24 18:59:44.845]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/install_plugins
+[2025-06-24 18:59:44.918]	Already installed "tmux-copycat"
+[2025-06-24 18:59:44.938]	Already installed "tmux-continuum"
+[2025-06-24 18:59:44.955]	Already installed "tmux-resurrect"
+[2025-06-24 18:59:44.972]	Already installed "tmux-cpu"
+[2025-06-24 18:59:44.988]	Already installed "tpm"
+[2025-06-24 18:59:45.005]	Already installed "tmux-sensible"
+[2025-06-24 18:59:45.023]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/update_plugins all
+[2025-06-24 18:59:45.059]	Updating all plugins!
+[2025-06-24 18:59:45.084]	
+[2025-06-24 18:59:45.131]	  "tpm" update fail
+[2025-06-24 18:59:45.159]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-06-24 18:59:45.182]	    | error: Please commit or stash them.
+[2025-06-24 18:59:45.414]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-24 18:59:45.448]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/install_plugins
+[2025-06-24 18:59:45.549]	Already installed "tmux-cpu"
+[2025-06-24 18:59:45.581]	Already installed "tpm"
+[2025-06-24 18:59:45.601]	Already installed "tmux-resurrect"
+[2025-06-24 18:59:45.626]	Already installed "tmux-copycat"
+[2025-06-24 18:59:45.648]	Already installed "tmux-continuum"
+[2025-06-24 18:59:45.674]	Already installed "tmux-sensible"
+[2025-06-24 18:59:45.695]	  "tmux-cpu" update success
+[2025-06-24 18:59:45.710]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/update_plugins all
+[2025-06-24 18:59:45.726]	    | Already up to date.
+[2025-06-24 18:59:45.756]	  "tmux-copycat" update success
+[2025-06-24 18:59:45.770]	Updating all plugins!
+[2025-06-24 18:59:45.786]	    | Already up to date.
+[2025-06-24 18:59:45.801]	
+[2025-06-24 18:59:45.815]	  "tmux-sensible" update success
+[2025-06-24 18:59:45.842]	    | Already up to date.
+[2025-06-24 18:59:45.858]	  "tpm" update fail
+[2025-06-24 18:59:45.869]	  "tmux-continuum" update success
+[2025-06-24 18:59:45.887]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-06-24 18:59:45.924]	    | error: Please commit or stash them.
+[2025-06-24 18:59:45.938]	    | Already up to date.
+[2025-06-24 18:59:45.964]	  "tmux-resurrect" update success
+[2025-06-24 18:59:45.991]	    | Already up to date.
+[2025-06-24 18:59:46.026]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/clean_plugins all
+[2025-06-24 18:59:46.283]	Done.
+
+[2025-06-24 18:59:46.439]	  "tmux-copycat" update success
+[2025-06-24 18:59:46.465]	    | Already up to date.
+[2025-06-24 18:59:46.495]	  "tmux-continuum" update success
+[2025-06-24 18:59:46.515]	    | Already up to date.
+[2025-06-24 18:59:46.534]	  "tmux-cpu" update success
+[2025-06-24 18:59:46.555]	    | Already up to date.
+[2025-06-24 18:59:46.578]	  "tmux-resurrect" update success
+[2025-06-24 18:59:46.596]	  "tmux-sensible" update success
+[2025-06-24 18:59:46.611]	    | Already up to date.
+[2025-06-24 18:59:46.628]	    | Already up to date.
+[2025-06-24 18:59:46.646]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/clean_plugins all
+[2025-06-24 18:59:46.661]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-24 18:59:46.681]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/install_plugins
+[2025-06-24 18:59:46.735]	Already installed "tmux-copycat"
+[2025-06-24 18:59:46.753]	Already installed "tmux-cpu"
+[2025-06-24 18:59:46.765]	Done.
+
+[2025-06-24 18:59:46.769]	Already installed "tmux-resurrect"
+[2025-06-24 18:59:46.787]	Already installed "tmux-sensible"
+[2025-06-24 18:59:46.805]	Already installed "tpm"
+[2025-06-24 18:59:46.821]	Already installed "tmux-continuum"
+[2025-06-24 18:59:46.837]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/update_plugins all
+[2025-06-24 18:59:46.868]	Updating all plugins!
+[2025-06-24 18:59:46.889]	
+[2025-06-24 18:59:46.905]	  "tpm" update fail
+[2025-06-24 18:59:46.922]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-06-24 18:59:46.938]	    | error: Please commit or stash them.
+[2025-06-24 18:59:47.410]	  "tmux-sensible" update success
+[2025-06-24 18:59:47.425]	    | Already up to date.
+[2025-06-24 18:59:47.440]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/clean_plugins all
+[2025-06-24 18:59:47.476]	Removing "tmux-continuum"
+[2025-06-24 18:59:47.490]	  "tmux-continuum" clean success
+[2025-06-24 18:59:47.503]	Removing "tmux-copycat"
+[2025-06-24 18:59:47.517]	  "tmux-copycat" clean success
+[2025-06-24 18:59:47.530]	Removing "tmux-cpu"
+[2025-06-24 18:59:47.544]	  "tmux-cpu" clean success
+[2025-06-24 18:59:47.559]	Removing "tmux-resurrect"
+[2025-06-24 18:59:47.576]	  "tmux-resurrect" clean success
+[2025-06-24 18:59:47.668]	Done.
+
+[2025-06-24 18:59:48.011]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-24 18:59:48.030]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/install_plugins
+[2025-06-24 18:59:48.082]	Already installed "tpm"
+[2025-06-24 18:59:48.098]	Already installed "tmux-sensible"
+[2025-06-24 18:59:48.111]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/update_plugins all
+[2025-06-24 18:59:48.138]	Updating all plugins!
+[2025-06-24 18:59:48.154]	
+[2025-06-24 18:59:48.167]	  "tpm" update fail
+[2025-06-24 18:59:48.181]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-06-24 18:59:48.194]	    | error: Please commit or stash them.
+[2025-06-24 18:59:48.784]	  "tmux-sensible" update success
+[2025-06-24 18:59:48.806]	    | Already up to date.
+[2025-06-24 18:59:48.825]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/clean_plugins all
+[2025-06-24 18:59:48.916]	Done.
+
+[2025-06-24 19:02:16.976]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-24 19:02:16.991]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/install_plugins
+[2025-06-24 19:02:17.044]	Installing "tmux-copycat"
+[2025-06-24 19:02:17.059]	Installing "tmux-cpu"
+[2025-06-24 19:02:17.073]	Installing "tmux-continuum"
+[2025-06-24 19:02:17.095]	Installing "tmux-resurrect"
+[2025-06-24 19:02:17.112]	Already installed "tpm"
+[2025-06-24 19:02:17.126]	Already installed "tmux-sensible"
+[2025-06-24 19:02:18.058]	  "tmux-continuum" download success
+[2025-06-24 19:02:18.086]	  "tmux-cpu" download success
+[2025-06-24 19:02:18.132]	  "tmux-copycat" download success
+[2025-06-24 19:02:19.144]	  "tmux-resurrect" download success
+[2025-06-24 19:02:19.172]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/update_plugins all
+[2025-06-24 19:02:19.237]	Updating all plugins!
+[2025-06-24 19:02:19.272]	
+[2025-06-24 19:02:19.395]	  "tpm" update fail
+[2025-06-24 19:02:19.428]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-06-24 19:02:19.453]	    | error: Please commit or stash them.
+[2025-06-24 19:02:19.828]	  "tmux-copycat" update success
+[2025-06-24 19:02:19.861]	    | Already up to date.
+[2025-06-24 19:02:19.890]	  "tmux-cpu" update success
+[2025-06-24 19:02:19.915]	    | Already up to date.
+[2025-06-24 19:02:19.940]	  "tmux-resurrect" update success
+[2025-06-24 19:02:19.965]	    | Already up to date.
+[2025-06-24 19:02:19.989]	  "tmux-continuum" update success
+[2025-06-24 19:02:20.013]	    | Already up to date.
+[2025-06-24 19:02:20.037]	  "tmux-sensible" update success
+[2025-06-24 19:02:20.058]	    | Already up to date.
+[2025-06-24 19:02:20.077]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/clean_plugins all
+[2025-06-24 19:02:20.176]	Done.
+
+[2025-06-24 19:06:27.773]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-24 19:06:27.788]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/install_plugins
+[2025-06-24 19:06:27.839]	Already installed "tmux-copycat"
+[2025-06-24 19:06:27.853]	Already installed "tmux-resurrect"
+[2025-06-24 19:06:27.869]	Already installed "tmux-continuum"
+[2025-06-24 19:06:27.888]	Already installed "tpm"
+[2025-06-24 19:06:27.903]	Already installed "tmux-cpu"
+[2025-06-24 19:06:27.919]	Already installed "tmux-sensible"
+[2025-06-24 19:06:27.934]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/update_plugins all
+[2025-06-24 19:06:27.962]	Updating all plugins!
+[2025-06-24 19:06:27.978]	
+[2025-06-24 19:06:28.006]	  "tpm" update fail
+[2025-06-24 19:06:28.021]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-06-24 19:06:28.034]	    | error: Please commit or stash them.
+[2025-06-24 19:06:28.704]	  "tmux-cpu" update success
+[2025-06-24 19:06:28.719]	  "tmux-continuum" update success
+[2025-06-24 19:06:28.734]	  "tmux-sensible" update success
+[2025-06-24 19:06:28.748]	    | Already up to date.
+[2025-06-24 19:06:28.769]	    | Already up to date.
+[2025-06-24 19:06:28.786]	    | Already up to date.
+[2025-06-24 19:06:28.811]	  "tmux-resurrect" update success
+[2025-06-24 19:06:28.826]	    | Already up to date.
+[2025-06-24 19:06:28.850]	  "tmux-copycat" update success
+[2025-06-24 19:06:28.867]	    | Already up to date.
+[2025-06-24 19:06:28.884]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/clean_plugins all
+[2025-06-24 19:06:28.980]	Done.
+
+[2025-06-24 19:10:10.693]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-24 19:10:10.709]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/install_plugins
+[2025-06-24 19:10:10.753]	Already installed "tmux-copycat"
+[2025-06-24 19:10:10.766]	Installing "tmux-sidebar"
+[2025-06-24 19:10:10.780]	Already installed "tmux-resurrect"
+[2025-06-24 19:10:10.794]	Already installed "tmux-continuum"
+[2025-06-24 19:10:10.809]	Already installed "tmux-cpu"
+[2025-06-24 19:10:10.821]	Already installed "tpm"
+[2025-06-24 19:10:10.834]	Already installed "tmux-sensible"
+[2025-06-24 19:10:11.731]	  "tmux-sidebar" download success
+[2025-06-24 19:10:11.746]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/update_plugins all
+[2025-06-24 19:10:11.774]	Updating all plugins!
+[2025-06-24 19:10:11.790]	
+[2025-06-24 19:10:11.821]	  "tpm" update fail
+[2025-06-24 19:10:11.836]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-06-24 19:10:11.850]	    | error: Please commit or stash them.
+[2025-06-24 19:10:12.466]	  "tmux-resurrect" update success
+[2025-06-24 19:10:12.491]	    | Already up to date.
+[2025-06-24 19:10:12.507]	  "tmux-copycat" update success
+[2025-06-24 19:10:12.521]	    | Already up to date.
+[2025-06-24 19:10:12.535]	  "tmux-continuum" update success
+[2025-06-24 19:10:12.548]	    | Already up to date.
+[2025-06-24 19:10:12.562]	  "tmux-sidebar" update success
+[2025-06-24 19:10:12.575]	  "tmux-cpu" update success
+[2025-06-24 19:10:12.590]	    | Already up to date.
+[2025-06-24 19:10:12.605]	    | Already up to date.
+[2025-06-24 19:10:12.619]	  "tmux-sensible" update success
+[2025-06-24 19:10:12.633]	    | Already up to date.
+[2025-06-24 19:10:12.648]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/clean_plugins all
+[2025-06-24 19:10:12.781]	Done.
+
+[2025-06-24 19:12:26.579]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-24 19:12:26.596]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/install_plugins
+[2025-06-24 19:12:26.640]	Already installed "tmux-cpu"
+[2025-06-24 19:12:26.652]	Already installed "tmux-copycat"
+[2025-06-24 19:12:26.665]	Already installed "tmux-resurrect"
+[2025-06-24 19:12:26.677]	Already installed "tmux-continuum"
+[2025-06-24 19:12:26.690]	Already installed "tpm"
+[2025-06-24 19:12:26.703]	Already installed "tmux-sensible"
+[2025-06-24 19:12:26.716]	Already installed "tmux-sidebar"
+[2025-06-24 19:12:26.729]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/update_plugins all
+[2025-06-24 19:12:26.755]	Updating all plugins!
+[2025-06-24 19:12:26.771]	
+[2025-06-24 19:12:26.800]	  "tpm" update fail
+[2025-06-24 19:12:26.814]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-06-24 19:12:26.833]	    | error: Please commit or stash them.
+[2025-06-24 19:12:27.544]	  "tmux-continuum" update success
+[2025-06-24 19:12:27.559]	    | Already up to date.
+[2025-06-24 19:12:27.573]	  "tmux-cpu" update success
+[2025-06-24 19:12:27.586]	  "tmux-resurrect" update success
+[2025-06-24 19:12:27.599]	    | Already up to date.
+[2025-06-24 19:12:27.612]	  "tmux-sensible" update success
+[2025-06-24 19:12:27.625]	    | Already up to date.
+[2025-06-24 19:12:27.639]	    | Already up to date.
+[2025-06-24 19:12:27.652]	  "tmux-sidebar" update success
+[2025-06-24 19:12:27.665]	    | Already up to date.
+[2025-06-24 19:12:27.679]	  "tmux-copycat" update success
+[2025-06-24 19:12:27.692]	    | Already up to date.
+[2025-06-24 19:12:27.705]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/clean_plugins all
+[2025-06-24 19:12:27.793]	Done.
+
+[2025-06-24 19:13:32.345]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-24 19:13:32.361]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/install_plugins
+[2025-06-24 19:13:32.408]	Already installed "tmux-cpu"
+[2025-06-24 19:13:32.422]	Already installed "tmux-copycat"
+[2025-06-24 19:13:32.435]	Already installed "tpm"
+[2025-06-24 19:13:32.448]	Already installed "tmux-continuum"
+[2025-06-24 19:13:32.461]	Already installed "tmux-resurrect"
+[2025-06-24 19:13:32.475]	Already installed "tmux-sensible"
+[2025-06-24 19:13:32.487]	Already installed "tmux-sidebar"
+[2025-06-24 19:13:32.500]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/update_plugins all
+[2025-06-24 19:13:32.525]	Updating all plugins!
+[2025-06-24 19:13:32.542]	
+[2025-06-24 19:13:32.570]	  "tpm" update fail
+[2025-06-24 19:13:32.584]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-06-24 19:13:32.599]	    | error: Please commit or stash them.
+[2025-06-24 19:13:33.186]	  "tmux-resurrect" update success
+[2025-06-24 19:13:33.203]	    | Already up to date.
+[2025-06-24 19:13:33.222]	  "tmux-sidebar" update success
+[2025-06-24 19:13:33.240]	    | Already up to date.
+[2025-06-24 19:13:33.257]	  "tmux-cpu" update success
+[2025-06-24 19:13:33.272]	    | Already up to date.
+[2025-06-24 19:13:33.287]	  "tmux-copycat" update success
+[2025-06-24 19:13:33.302]	    | Already up to date.
+[2025-06-24 19:13:33.318]	  "tmux-sensible" update success
+[2025-06-24 19:13:33.334]	    | Already up to date.
+[2025-06-24 19:13:33.350]	  "tmux-continuum" update success
+[2025-06-24 19:13:33.365]	    | Already up to date.
+[2025-06-24 19:13:33.382]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/clean_plugins all
+[2025-06-24 19:13:33.481]	Done.
+
+[2025-06-24 19:14:01.999]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-24 19:14:02.014]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/install_plugins
+[2025-06-24 19:14:02.061]	Already installed "tmux-cpu"
+[2025-06-24 19:14:02.073]	Already installed "tmux-resurrect"
+[2025-06-24 19:14:02.086]	Already installed "tmux-copycat"
+[2025-06-24 19:14:02.100]	Already installed "tmux-continuum"
+[2025-06-24 19:14:02.112]	Already installed "tmux-sensible"
+[2025-06-24 19:14:02.125]	Already installed "tpm"
+[2025-06-24 19:14:02.138]	Already installed "tmux-sidebar"
+[2025-06-24 19:14:02.152]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/update_plugins all
+[2025-06-24 19:14:02.177]	Updating all plugins!
+[2025-06-24 19:14:02.193]	
+[2025-06-24 19:14:02.225]	  "tpm" update fail
+[2025-06-24 19:14:02.238]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-06-24 19:14:02.256]	    | error: Please commit or stash them.
+[2025-06-24 19:14:02.956]	  "tmux-cpu" update success
+[2025-06-24 19:14:02.978]	    | Already up to date.
+[2025-06-24 19:14:02.991]	  "tmux-resurrect" update success
+[2025-06-24 19:14:03.005]	    | Already up to date.
+[2025-06-24 19:14:03.019]	  "tmux-sidebar" update success
+[2025-06-24 19:14:03.032]	  "tmux-sensible" update success
+[2025-06-24 19:14:03.046]	  "tmux-continuum" update success
+[2025-06-24 19:14:03.059]	    | Already up to date.
+[2025-06-24 19:14:03.077]	    | Already up to date.
+[2025-06-24 19:14:03.115]	    | Already up to date.
+[2025-06-24 19:14:03.150]	  "tmux-copycat" update success
+[2025-06-24 19:14:03.167]	    | Already up to date.
+[2025-06-24 19:14:03.191]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/clean_plugins all
+[2025-06-24 19:14:03.297]	Done.
+
+[2025-06-24 19:14:13.484]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-24 19:14:13.501]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/install_plugins
+[2025-06-24 19:14:13.546]	Already installed "tmux-cpu"
+[2025-06-24 19:14:13.563]	Already installed "tmux-copycat"
+[2025-06-24 19:14:13.577]	Already installed "tmux-resurrect"
+[2025-06-24 19:14:13.591]	Already installed "tmux-continuum"
+[2025-06-24 19:14:13.603]	Already installed "tmux-sensible"
+[2025-06-24 19:14:13.616]	Already installed "tpm"
+[2025-06-24 19:14:13.629]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/update_plugins all
+[2025-06-24 19:14:13.654]	Updating all plugins!
+[2025-06-24 19:14:13.674]	
+[2025-06-24 19:14:13.700]	  "tpm" update fail
+[2025-06-24 19:14:13.714]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-06-24 19:14:13.734]	    | error: Please commit or stash them.
+[2025-06-24 19:14:14.290]	  "tmux-copycat" update success
+[2025-06-24 19:14:14.312]	    | Already up to date.
+[2025-06-24 19:14:14.328]	  "tmux-cpu" update success
+[2025-06-24 19:14:14.343]	    | Already up to date.
+[2025-06-24 19:14:14.357]	  "tmux-resurrect" update success
+[2025-06-24 19:14:14.371]	  "tmux-continuum" update success
+[2025-06-24 19:14:14.385]	    | Already up to date.
+[2025-06-24 19:14:14.401]	    | Already up to date.
+[2025-06-24 19:14:14.417]	  "tmux-sensible" update success
+[2025-06-24 19:14:14.431]	    | Already up to date.
+[2025-06-24 19:14:14.446]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/clean_plugins all
+[2025-06-24 19:14:14.491]	Removing "tmux-sidebar"
+[2025-06-24 19:14:14.505]	  "tmux-sidebar" clean success
+[2025-06-24 19:14:14.567]	Done.
+
+[2025-06-24 19:17:45.916]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-24 19:17:45.930]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/install_plugins
+[2025-06-24 19:17:45.975]	Already installed "tmux-copycat"
+[2025-06-24 19:17:45.988]	Already installed "tmux-cpu"
+[2025-06-24 19:17:46.002]	Installing "tmux-battery"
+[2025-06-24 19:17:46.015]	Installing "tmux-prefix-highlight"
+[2025-06-24 19:17:46.029]	Already installed "tpm"
+[2025-06-24 19:17:46.042]	Already installed "tmux-sensible"
+[2025-06-24 19:17:46.056]	Already installed "tmux-resurrect"
+[2025-06-24 19:17:46.069]	Already installed "tmux-continuum"
+[2025-06-24 19:17:46.081]	Already installed "tmux-cpu"
+[2025-06-24 19:17:46.814]	  "tmux-prefix-highlight" download success
+[2025-06-24 19:17:46.909]	  "tmux-battery" download success
+[2025-06-24 19:17:46.927]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/update_plugins all
+[2025-06-24 19:17:46.965]	Updating all plugins!
+[2025-06-24 19:17:46.981]	
+[2025-06-24 19:17:47.012]	  "tpm" update fail
+[2025-06-24 19:17:47.033]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-06-24 19:17:47.056]	    | error: Please commit or stash them.
+[2025-06-24 19:17:47.672]	  "tmux-cpu" update fail
+[2025-06-24 19:17:47.701]	    | fatal: Cannot rebase onto multiple branches.
+[2025-06-24 19:17:47.716]	  "tmux-cpu" update success
+[2025-06-24 19:17:47.730]	    | Already up to date.
+[2025-06-24 19:17:47.743]	  "tmux-battery" update success
+[2025-06-24 19:17:47.757]	  "tmux-copycat" update success
+[2025-06-24 19:17:47.770]	  "tmux-sensible" update success
+[2025-06-24 19:17:47.783]	    | Already up to date.
+[2025-06-24 19:17:47.796]	  "tmux-continuum" update success
+[2025-06-24 19:17:47.809]	    | Already up to date.
+[2025-06-24 19:17:47.821]	    | Already up to date.
+[2025-06-24 19:17:47.834]	    | Already up to date.
+[2025-06-24 19:17:47.847]	  "tmux-resurrect" update success
+[2025-06-24 19:17:47.859]	    | Already up to date.
+[2025-06-24 19:17:47.872]	  "tmux-prefix-highlight" update success
+[2025-06-24 19:17:47.885]	    | Already up to date.
+[2025-06-24 19:17:47.898]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/clean_plugins all
+[2025-06-24 19:17:47.987]	Done.
+
+[2025-06-25 09:31:53.876]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-25 09:31:53.892]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/install_plugins
+[2025-06-25 09:31:53.938]	Already installed "tmux-copycat"
+[2025-06-25 09:31:53.951]	Already installed "tmux-resurrect"
+[2025-06-25 09:31:53.965]	Already installed "tpm"
+[2025-06-25 09:31:53.977]	Already installed "tmux-continuum"
+[2025-06-25 09:31:53.990]	Already installed "tmux-battery"
+[2025-06-25 09:31:54.004]	Already installed "tmux-cpu"
+[2025-06-25 09:31:54.018]	Already installed "tmux-prefix-highlight"
+[2025-06-25 09:31:54.033]	Already installed "tmux-sensible"
+[2025-06-25 09:31:54.049]	Already installed "tmux-cpu"
+[2025-06-25 09:31:54.064]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/update_plugins all
+[2025-06-25 09:31:54.092]	Updating all plugins!
+[2025-06-25 09:31:54.108]	
+[2025-06-25 09:31:54.139]	  "tpm" update fail
+[2025-06-25 09:31:54.154]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-06-25 09:31:54.171]	    | error: Please commit or stash them.
+[2025-06-25 09:31:54.853]	  "tmux-cpu" update fail
+[2025-06-25 09:31:54.880]	  "tmux-cpu" update fail
+[2025-06-25 09:31:54.896]	    | fatal: Cannot rebase onto multiple branches.
+[2025-06-25 09:31:54.912]	    | fatal: Cannot rebase onto multiple branches.
+[2025-06-25 09:31:54.926]	  "tmux-prefix-highlight" update success
+[2025-06-25 09:31:54.941]	  "tmux-copycat" update success
+[2025-06-25 09:31:54.956]	    | Already up to date.
+[2025-06-25 09:31:54.972]	  "tmux-sensible" update success
+[2025-06-25 09:31:54.988]	    | Already up to date.
+[2025-06-25 09:31:55.005]	    | Already up to date.
+[2025-06-25 09:31:55.021]	  "tmux-continuum" update success
+[2025-06-25 09:31:55.037]	  "tmux-battery" update success
+[2025-06-25 09:31:55.053]	    | Already up to date.
+[2025-06-25 09:31:55.069]	    | Already up to date.
+[2025-06-25 09:31:55.086]	  "tmux-resurrect" update success
+[2025-06-25 09:31:55.101]	    | Already up to date.
+[2025-06-25 09:31:55.115]	Invoking /home/jpaiva/.config/tmux/plugins//tpm/bin/clean_plugins all
+[2025-06-25 09:31:55.210]	Done.
+
+[2025-08-28 14:27:28.294]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-08-28 14:27:28.329]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-08-28 14:27:28.447]	Already installed "tmux-sensible"
+[2025-08-28 14:27:28.479]	Already installed "tmux-resurrect"
+[2025-08-28 14:27:28.512]	Already installed "tmux-battery"
+[2025-08-28 14:27:28.545]	Already installed "tmux-copycat"
+[2025-08-28 14:27:28.586]	Already installed "tmux-cpu"
+[2025-08-28 14:27:28.631]	Already installed "tpm"
+[2025-08-28 14:27:28.664]	Already installed "tmux-prefix-highlight"
+[2025-08-28 14:27:28.693]	Already installed "tmux-continuum"
+[2025-08-28 14:27:28.720]	Already installed "tmux-cpu"
+[2025-08-28 14:27:28.747]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-08-28 14:27:28.793]	Updating all plugins!
+[2025-08-28 14:27:28.827]	
+[2025-08-28 14:27:28.896]	  "tpm" update fail
+[2025-08-28 14:27:28.939]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-08-28 14:27:28.980]	    | error: Please commit or stash them.
+[2025-08-28 14:27:29.602]	  "tmux-cpu" update success
+[2025-08-28 14:27:29.626]	    | Already up to date.
+[2025-08-28 14:27:29.679]	  "tmux-cpu" update fail
+[2025-08-28 14:27:29.712]	    | fatal: Cannot rebase onto multiple branches.
+[2025-08-28 14:27:29.748]	  "tmux-resurrect" update success
+[2025-08-28 14:27:29.782]	    | Already up to date.
+[2025-08-28 14:27:29.812]	  "tmux-continuum" update success
+[2025-08-28 14:27:29.838]	    | Already up to date.
+[2025-08-28 14:27:29.864]	  "tmux-sensible" update success
+[2025-08-28 14:27:29.892]	    | Already up to date.
+[2025-08-28 14:27:29.916]	  "tmux-copycat" update success
+[2025-08-28 14:27:29.942]	  "tmux-battery" update success
+[2025-08-28 14:27:29.969]	    | Already up to date.
+[2025-08-28 14:27:30.000]	    | Already up to date.
+[2025-08-28 14:27:30.039]	  "tmux-prefix-highlight" update success
+[2025-08-28 14:27:30.072]	    | Already up to date.
+[2025-08-28 14:27:30.123]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-08-28 14:27:30.379]	Done.
+
+[2025-08-31 19:23:12.483]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-08-31 19:23:12.485]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-08-31 19:23:12.514]	Already installed "tmux-cpu"
+[2025-08-31 19:23:12.515]	Already installed "tmux-continuum"
+[2025-08-31 19:23:12.516]	Already installed "tmux-copycat"
+[2025-08-31 19:23:12.517]	Already installed "tmux-resurrect"
+[2025-08-31 19:23:12.518]	Already installed "tpm"
+[2025-08-31 19:23:12.519]	Already installed "tmux-battery"
+[2025-08-31 19:23:12.520]	Already installed "tmux-sensible"
+[2025-08-31 19:23:12.521]	Already installed "tmux-cpu"
+[2025-08-31 19:23:12.522]	Already installed "tmux-prefix-highlight"
+[2025-08-31 19:23:12.524]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-08-31 19:23:12.535]	Updating all plugins!
+[2025-08-31 19:23:12.536]	
+[2025-08-31 19:23:13.018]	  "tmux-copycat" update success
+[2025-08-31 19:23:13.019]	    | Already up to date.
+[2025-08-31 19:23:13.020]	  "tmux-cpu" update success
+[2025-08-31 19:23:13.021]	  "tmux-sensible" update success
+[2025-08-31 19:23:13.022]	    | Already up to date.
+[2025-08-31 19:23:13.023]	    | Already up to date.
+[2025-08-31 19:23:13.024]	  "tmux-resurrect" update success
+[2025-08-31 19:23:13.025]	    | Already up to date.
+[2025-08-31 19:23:13.030]	  "tmux-continuum" update success
+[2025-08-31 19:23:13.031]	    | Already up to date.
+[2025-08-31 19:23:13.035]	  "tmux-cpu" update success
+[2025-08-31 19:23:13.036]	    | Already up to date.
+[2025-08-31 19:23:13.060]	  "tmux-battery" update success
+[2025-08-31 19:23:13.061]	    | Already up to date.
+[2025-08-31 19:23:13.076]	  "tmux-prefix-highlight" update success
+[2025-08-31 19:23:13.078]	    | Already up to date.
+[2025-08-31 19:23:15.085]	  "tpm" update success
+[2025-08-31 19:23:15.087]	    | Already up to date.
+[2025-08-31 19:23:15.089]	    | Submodule 'lib/tmux-test' (https://github.com/tmux-plugins/tmux-test.git) registered for path 'lib/tmux-test'
+[2025-08-31 19:23:15.090]	    | Cloning into '/home/jpaiva/.config/tmux/plugins/tpm/lib/tmux-test'...
+[2025-08-31 19:23:15.092]	    | From https://github.com/tmux-plugins/tmux-test
+[2025-08-31 19:23:15.093]	    |  * branch            33fa65fbfb72ba6dd106c21bf5ee6cc353ecdbb6 -> FETCH_HEAD
+[2025-08-31 19:23:15.094]	    | Submodule path 'lib/tmux-test': checked out '33fa65fbfb72ba6dd106c21bf5ee6cc353ecdbb6'
+[2025-08-31 19:23:15.096]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-08-31 19:23:15.170]	Done.
+
+[2025-08-31 19:46:25.384]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-08-31 19:46:25.387]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-08-31 19:46:25.416]	Already installed "tmux-copycat"
+[2025-08-31 19:46:25.417]	Already installed "tmux-continuum"
+[2025-08-31 19:46:25.418]	Already installed "tmux-cpu"
+[2025-08-31 19:46:25.419]	Already installed "tpm"
+[2025-08-31 19:46:25.420]	Already installed "tmux-sensible"
+[2025-08-31 19:46:25.421]	Already installed "tmux-cpu"
+[2025-08-31 19:46:25.422]	Already installed "tmux-battery"
+[2025-08-31 19:46:25.423]	Already installed "tmux-prefix-highlight"
+[2025-08-31 19:46:25.425]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-08-31 19:46:25.438]	Updating all plugins!
+[2025-08-31 19:46:25.439]	
+[2025-08-31 19:46:25.921]	  "tmux-sensible" update success
+[2025-08-31 19:46:25.923]	    | Already up to date.
+[2025-08-31 19:46:25.929]	  "tpm" update success
+[2025-08-31 19:46:25.929]	  "tmux-copycat" update success
+[2025-08-31 19:46:25.931]	    | Already up to date.
+[2025-08-31 19:46:25.931]	    | Already up to date.
+[2025-08-31 19:46:25.932]	  "tmux-continuum" update success
+[2025-08-31 19:46:25.933]	  "tmux-cpu" update success
+[2025-08-31 19:46:25.934]	    | Already up to date.
+[2025-08-31 19:46:25.935]	    | Already up to date.
+[2025-08-31 19:46:25.937]	  "tmux-cpu" update success
+[2025-08-31 19:46:25.938]	    | Already up to date.
+[2025-08-31 19:46:25.941]	  "tmux-battery" update success
+[2025-08-31 19:46:25.942]	    | Already up to date.
+[2025-08-31 19:46:25.967]	  "tmux-prefix-highlight" update success
+[2025-08-31 19:46:25.968]	    | Already up to date.
+[2025-08-31 19:46:25.969]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-08-31 19:46:25.998]	Removing "tmux-resurrect"
+[2025-08-31 19:46:26.002]	  "tmux-resurrect" clean success
+[2025-08-31 19:46:26.037]	Done.
+
+[2025-09-01 15:00:42.988]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-09-01 15:00:42.990]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-09-01 15:00:43.029]	Already installed "tpm"
+[2025-09-01 15:00:43.030]	Already installed "tmux-cpu"
+[2025-09-01 15:00:43.032]	Already installed "tmux-copycat"
+[2025-09-01 15:00:43.033]	Already installed "tmux-continuum"
+[2025-09-01 15:00:43.034]	Already installed "tmux-sensible"
+[2025-09-01 15:00:43.036]	Already installed "tmux-cpu"
+[2025-09-01 15:00:43.037]	Already installed "tmux-battery"
+[2025-09-01 15:00:43.038]	Already installed "tmux-prefix-highlight"
+[2025-09-01 15:00:43.041]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-09-01 15:00:43.059]	Updating all plugins!
+[2025-09-01 15:00:43.061]	
+[2025-09-01 15:00:43.577]	  "tmux-copycat" update success
+[2025-09-01 15:00:43.579]	  "tmux-cpu" update success
+[2025-09-01 15:00:43.581]	    | Already up to date.
+[2025-09-01 15:00:43.583]	    | Already up to date.
+[2025-09-01 15:00:43.584]	  "tmux-continuum" update success
+[2025-09-01 15:00:43.585]	    | Already up to date.
+[2025-09-01 15:00:43.594]	  "tmux-cpu" update success
+[2025-09-01 15:00:43.596]	    | Already up to date.
+[2025-09-01 15:00:43.600]	  "tpm" update success
+[2025-09-01 15:00:43.602]	    | Already up to date.
+[2025-09-01 15:00:43.614]	  "tmux-sensible" update success
+[2025-09-01 15:00:43.615]	  "tmux-battery" update success
+[2025-09-01 15:00:43.617]	    | Already up to date.
+[2025-09-01 15:00:43.618]	    | Already up to date.
+[2025-09-01 15:00:43.627]	  "tmux-prefix-highlight" update success
+[2025-09-01 15:00:43.630]	    | Already up to date.
+[2025-09-01 15:00:43.632]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-09-01 15:00:43.727]	Done.
+
+[2025-09-02 16:19:20.881]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-09-02 16:19:20.882]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-09-02 16:19:20.911]	Already installed "tmux-copycat"
+[2025-09-02 16:19:20.912]	Already installed "tmux-continuum"
+[2025-09-02 16:19:20.913]	Already installed "tpm"
+[2025-09-02 16:19:20.914]	Already installed "tmux-cpu"
+[2025-09-02 16:19:20.915]	Already installed "tmux-sensible"
+[2025-09-02 16:19:20.916]	Already installed "tmux-battery"
+[2025-09-02 16:19:20.917]	Already installed "tmux-cpu"
+[2025-09-02 16:19:20.918]	Already installed "tmux-prefix-highlight"
+[2025-09-02 16:19:20.919]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-09-02 16:19:20.932]	Updating all plugins!
+[2025-09-02 16:19:20.933]	
+[2025-09-02 16:19:21.417]	  "tmux-cpu" update success
+[2025-09-02 16:19:21.418]	  "tmux-cpu" update success
+[2025-09-02 16:19:21.419]	    | Already up to date.
+[2025-09-02 16:19:21.420]	  "tmux-copycat" update success
+[2025-09-02 16:19:21.421]	    | Already up to date.
+[2025-09-02 16:19:21.422]	    | Already up to date.
+[2025-09-02 16:19:21.423]	  "tpm" update success
+[2025-09-02 16:19:21.424]	    | Already up to date.
+[2025-09-02 16:19:21.427]	  "tmux-continuum" update success
+[2025-09-02 16:19:21.428]	    | Already up to date.
+[2025-09-02 16:19:21.449]	  "tmux-sensible" update success
+[2025-09-02 16:19:21.450]	  "tmux-prefix-highlight" update success
+[2025-09-02 16:19:21.451]	    | Already up to date.
+[2025-09-02 16:19:21.452]	    | Already up to date.
+[2025-09-02 16:19:21.826]	  "tmux-battery" update success
+[2025-09-02 16:19:21.827]	    | Already up to date.
+[2025-09-02 16:19:21.829]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-09-02 16:19:21.896]	Done.
+
+[2025-09-03 14:41:24.390]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-09-03 14:41:24.393]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-09-03 14:41:24.425]	Already installed "tmux-cpu"
+[2025-09-03 14:41:24.425]	Already installed "tmux-copycat"
+[2025-09-03 14:41:24.426]	Already installed "tmux-continuum"
+[2025-09-03 14:41:24.428]	Already installed "tpm"
+[2025-09-03 14:41:24.429]	Already installed "tmux-sensible"
+[2025-09-03 14:41:24.430]	Already installed "tmux-battery"
+[2025-09-03 14:41:24.431]	Already installed "tmux-cpu"
+[2025-09-03 14:41:24.431]	Already installed "tmux-prefix-highlight"
+[2025-09-03 14:41:24.433]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-09-03 14:41:24.446]	Updating all plugins!
+[2025-09-03 14:41:24.447]	
+[2025-09-03 14:41:24.466]	  "tmux-copycat" update fail
+[2025-09-03 14:41:24.468]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-03 14:41:24.469]	    | error: Please commit or stash them.
+[2025-09-03 14:41:24.471]	  "tmux-cpu" update fail
+[2025-09-03 14:41:24.473]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-03 14:41:24.474]	    | error: Please commit or stash them.
+[2025-09-03 14:41:24.477]	  "tmux-continuum" update fail
+[2025-09-03 14:41:24.478]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-03 14:41:24.479]	    | error: Please commit or stash them.
+[2025-09-03 14:41:24.482]	  "tpm" update fail
+[2025-09-03 14:41:24.484]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-03 14:41:24.485]	    | error: Please commit or stash them.
+[2025-09-03 14:41:24.487]	  "tmux-sensible" update fail
+[2025-09-03 14:41:24.489]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-03 14:41:24.490]	    | error: Please commit or stash them.
+[2025-09-03 14:41:24.494]	  "tmux-battery" update fail
+[2025-09-03 14:41:24.496]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-03 14:41:24.497]	    | error: Please commit or stash them.
+[2025-09-03 14:41:24.499]	  "tmux-cpu" update fail
+[2025-09-03 14:41:24.501]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-03 14:41:24.502]	    | error: Please commit or stash them.
+[2025-09-03 14:41:24.505]	  "tmux-prefix-highlight" update fail
+[2025-09-03 14:41:24.507]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-03 14:41:24.508]	    | error: Please commit or stash them.
+[2025-09-03 14:41:24.510]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-09-03 14:41:24.576]	Done.
+
+[2025-09-08 10:14:10.335]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-09-08 10:14:10.337]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-09-08 10:14:10.367]	Already installed "tpm"
+[2025-09-08 10:14:10.368]	Already installed "tmux-battery"
+[2025-09-08 10:14:10.369]	Already installed "tmux-copycat"
+[2025-09-08 10:14:10.370]	Already installed "tmux-cpu"
+[2025-09-08 10:14:10.371]	Already installed "tmux-cpu"
+[2025-09-08 10:14:10.372]	Already installed "tmux-sensible"
+[2025-09-08 10:14:10.373]	Already installed "tmux-continuum"
+[2025-09-08 10:14:10.374]	Already installed "tmux-prefix-highlight"
+[2025-09-08 10:14:10.376]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-09-08 10:14:10.389]	Updating all plugins!
+[2025-09-08 10:14:10.390]	
+[2025-09-08 10:14:10.407]	  "tmux-copycat" update fail
+[2025-09-08 10:14:10.409]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-08 10:14:10.410]	    | error: Please commit or stash them.
+[2025-09-08 10:14:10.413]	  "tmux-cpu" update fail
+[2025-09-08 10:14:10.414]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-08 10:14:10.415]	    | error: Please commit or stash them.
+[2025-09-08 10:14:10.418]	  "tmux-continuum" update fail
+[2025-09-08 10:14:10.420]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-08 10:14:10.421]	    | error: Please commit or stash them.
+[2025-09-08 10:14:10.424]	  "tpm" update fail
+[2025-09-08 10:14:10.426]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-08 10:14:10.427]	    | error: Please commit or stash them.
+[2025-09-08 10:14:10.430]	  "tmux-sensible" update fail
+[2025-09-08 10:14:10.431]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-08 10:14:10.433]	    | error: Please commit or stash them.
+[2025-09-08 10:14:10.437]	  "tmux-battery" update fail
+[2025-09-08 10:14:10.438]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-08 10:14:10.439]	    | error: Please commit or stash them.
+[2025-09-08 10:14:10.443]	  "tmux-cpu" update fail
+[2025-09-08 10:14:10.444]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-08 10:14:10.445]	    | error: Please commit or stash them.
+[2025-09-08 10:14:10.448]	  "tmux-prefix-highlight" update fail
+[2025-09-08 10:14:10.449]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-08 10:14:10.450]	    | error: Please commit or stash them.
+[2025-09-08 10:14:10.452]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-09-08 10:14:10.523]	Done.
+
+[2025-09-09 14:55:58.733]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-09-09 14:55:58.735]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-09-09 14:55:58.771]	Already installed "tmux-cpu"
+[2025-09-09 14:55:58.772]	Already installed "tpm"
+[2025-09-09 14:55:58.773]	Already installed "tmux-sensible"
+[2025-09-09 14:55:58.775]	Already installed "tmux-prefix-highlight"
+[2025-09-09 14:55:58.776]	Already installed "tmux-battery"
+[2025-09-09 14:55:58.777]	Already installed "tmux-continuum"
+[2025-09-09 14:55:58.778]	Already installed "tmux-cpu"
+[2025-09-09 14:55:58.780]	Already installed "tmux-copycat"
+[2025-09-09 14:55:58.782]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-09-09 14:55:58.798]	Updating all plugins!
+[2025-09-09 14:55:58.799]	
+[2025-09-09 14:55:58.821]	  "tmux-copycat" update fail
+[2025-09-09 14:55:58.823]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-09 14:55:58.825]	    | error: Please commit or stash them.
+[2025-09-09 14:55:58.828]	  "tmux-cpu" update fail
+[2025-09-09 14:55:58.831]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-09 14:55:58.832]	    | error: Please commit or stash them.
+[2025-09-09 14:55:58.837]	  "tmux-continuum" update fail
+[2025-09-09 14:55:58.840]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-09 14:55:58.842]	    | error: Please commit or stash them.
+[2025-09-09 14:55:58.846]	  "tpm" update fail
+[2025-09-09 14:55:58.849]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-09 14:55:58.850]	    | error: Please commit or stash them.
+[2025-09-09 14:55:58.855]	  "tmux-sensible" update fail
+[2025-09-09 14:55:58.857]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-09 14:55:58.859]	    | error: Please commit or stash them.
+[2025-09-09 14:55:58.863]	  "tmux-battery" update fail
+[2025-09-09 14:55:58.866]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-09 14:55:58.867]	    | error: Please commit or stash them.
+[2025-09-09 14:55:58.871]	  "tmux-cpu" update fail
+[2025-09-09 14:55:58.874]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-09 14:55:58.875]	    | error: Please commit or stash them.
+[2025-09-09 14:55:58.880]	  "tmux-prefix-highlight" update fail
+[2025-09-09 14:55:58.882]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-09 14:55:58.883]	    | error: Please commit or stash them.
+[2025-09-09 14:55:58.884]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-09-09 14:55:58.972]	Done.
+
+[2025-09-15 09:56:50.863]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-09-15 09:56:50.865]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-09-15 09:56:50.893]	Already installed "tmux-sensible"
+[2025-09-15 09:56:50.894]	Already installed "tmux-continuum"
+[2025-09-15 09:56:50.895]	Already installed "tmux-cpu"
+[2025-09-15 09:56:50.896]	Already installed "tmux-cpu"
+[2025-09-15 09:56:50.897]	Already installed "tpm"
+[2025-09-15 09:56:50.898]	Already installed "tmux-copycat"
+[2025-09-15 09:56:50.899]	Already installed "tmux-prefix-highlight"
+[2025-09-15 09:56:50.900]	Already installed "tmux-battery"
+[2025-09-15 09:56:50.901]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-09-15 09:56:50.914]	Updating all plugins!
+[2025-09-15 09:56:50.915]	
+[2025-09-15 09:56:50.933]	  "tmux-copycat" update fail
+[2025-09-15 09:56:50.935]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-15 09:56:50.936]	    | error: Please commit or stash them.
+[2025-09-15 09:56:50.937]	  "tmux-cpu" update fail
+[2025-09-15 09:56:50.939]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-15 09:56:50.940]	    | error: Please commit or stash them.
+[2025-09-15 09:56:50.943]	  "tmux-continuum" update fail
+[2025-09-15 09:56:50.944]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-15 09:56:50.945]	    | error: Please commit or stash them.
+[2025-09-15 09:56:50.949]	  "tpm" update fail
+[2025-09-15 09:56:50.951]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-15 09:56:50.952]	    | error: Please commit or stash them.
+[2025-09-15 09:56:50.954]	  "tmux-sensible" update fail
+[2025-09-15 09:56:50.956]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-15 09:56:50.957]	    | error: Please commit or stash them.
+[2025-09-15 09:56:50.960]	  "tmux-battery" update fail
+[2025-09-15 09:56:50.962]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-15 09:56:50.963]	    | error: Please commit or stash them.
+[2025-09-15 09:56:50.966]	  "tmux-cpu" update fail
+[2025-09-15 09:56:50.968]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-15 09:56:50.968]	    | error: Please commit or stash them.
+[2025-09-15 09:56:50.972]	  "tmux-prefix-highlight" update fail
+[2025-09-15 09:56:50.973]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-15 09:56:50.974]	    | error: Please commit or stash them.
+[2025-09-15 09:56:50.976]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-09-15 09:56:51.043]	Done.
+
+[2025-09-22 16:15:18.883]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-09-22 16:15:18.885]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-09-22 16:15:18.913]	Already installed "tmux-copycat"
+[2025-09-22 16:15:18.914]	Already installed "tmux-cpu"
+[2025-09-22 16:15:18.915]	Already installed "tmux-battery"
+[2025-09-22 16:15:18.916]	Already installed "tmux-continuum"
+[2025-09-22 16:15:18.918]	Already installed "tpm"
+[2025-09-22 16:15:18.919]	Already installed "tmux-sensible"
+[2025-09-22 16:15:18.920]	Already installed "tmux-cpu"
+[2025-09-22 16:15:18.921]	Already installed "tmux-prefix-highlight"
+[2025-09-22 16:15:18.922]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-09-22 16:15:18.935]	Updating all plugins!
+[2025-09-22 16:15:18.936]	
+[2025-09-22 16:15:18.954]	  "tmux-copycat" update fail
+[2025-09-22 16:15:18.956]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-22 16:15:18.957]	    | error: Please commit or stash them.
+[2025-09-22 16:15:18.959]	  "tmux-cpu" update fail
+[2025-09-22 16:15:18.961]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-22 16:15:18.962]	    | error: Please commit or stash them.
+[2025-09-22 16:15:18.964]	  "tmux-continuum" update fail
+[2025-09-22 16:15:18.965]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-22 16:15:18.966]	    | error: Please commit or stash them.
+[2025-09-22 16:15:18.970]	  "tpm" update fail
+[2025-09-22 16:15:18.972]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-22 16:15:18.973]	    | error: Please commit or stash them.
+[2025-09-22 16:15:18.976]	  "tmux-sensible" update fail
+[2025-09-22 16:15:18.978]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-22 16:15:18.979]	    | error: Please commit or stash them.
+[2025-09-22 16:15:18.982]	  "tmux-battery" update fail
+[2025-09-22 16:15:18.983]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-22 16:15:18.984]	    | error: Please commit or stash them.
+[2025-09-22 16:15:18.987]	  "tmux-cpu" update fail
+[2025-09-22 16:15:18.989]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-22 16:15:18.990]	    | error: Please commit or stash them.
+[2025-09-22 16:15:18.993]	  "tmux-prefix-highlight" update fail
+[2025-09-22 16:15:18.994]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-22 16:15:18.995]	    | error: Please commit or stash them.
+[2025-09-22 16:15:18.997]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-09-22 16:15:19.062]	Done.
+
+[2025-09-23 11:05:31.835]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-09-23 11:05:31.836]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-09-23 11:05:31.866]	Already installed "tpm"
+[2025-09-23 11:05:31.867]	Already installed "tmux-cpu"
+[2025-09-23 11:05:31.868]	Already installed "tmux-sensible"
+[2025-09-23 11:05:31.869]	Already installed "tmux-copycat"
+[2025-09-23 11:05:31.870]	Already installed "tmux-continuum"
+[2025-09-23 11:05:31.871]	Already installed "tmux-cpu"
+[2025-09-23 11:05:31.872]	Already installed "tmux-prefix-highlight"
+[2025-09-23 11:05:31.873]	Already installed "tmux-battery"
+[2025-09-23 11:05:31.874]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-09-23 11:05:31.886]	Updating all plugins!
+[2025-09-23 11:05:31.887]	
+[2025-09-23 11:05:31.907]	  "tmux-copycat" update fail
+[2025-09-23 11:05:31.909]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-23 11:05:31.910]	    | error: Please commit or stash them.
+[2025-09-23 11:05:31.913]	  "tmux-cpu" update fail
+[2025-09-23 11:05:31.914]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-23 11:05:31.915]	    | error: Please commit or stash them.
+[2025-09-23 11:05:31.917]	  "tmux-continuum" update fail
+[2025-09-23 11:05:31.919]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-23 11:05:31.920]	    | error: Please commit or stash them.
+[2025-09-23 11:05:31.923]	  "tpm" update fail
+[2025-09-23 11:05:31.925]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-23 11:05:31.926]	    | error: Please commit or stash them.
+[2025-09-23 11:05:31.928]	  "tmux-sensible" update fail
+[2025-09-23 11:05:31.930]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-23 11:05:31.931]	    | error: Please commit or stash them.
+[2025-09-23 11:05:31.934]	  "tmux-battery" update fail
+[2025-09-23 11:05:31.936]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-23 11:05:31.937]	    | error: Please commit or stash them.
+[2025-09-23 11:05:31.940]	  "tmux-cpu" update fail
+[2025-09-23 11:05:31.941]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-23 11:05:31.942]	    | error: Please commit or stash them.
+[2025-09-23 11:05:31.946]	  "tmux-prefix-highlight" update fail
+[2025-09-23 11:05:31.947]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-23 11:05:31.948]	    | error: Please commit or stash them.
+[2025-09-23 11:05:31.950]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-09-23 11:05:32.019]	Done.
+
+[2025-09-29 10:53:10.709]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-09-29 10:53:10.711]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-09-29 10:53:10.739]	Already installed "tmux-sensible"
+[2025-09-29 10:53:10.740]	Already installed "tmux-continuum"
+[2025-09-29 10:53:10.741]	Already installed "tmux-copycat"
+[2025-09-29 10:53:10.743]	Already installed "tmux-cpu"
+[2025-09-29 10:53:10.744]	Already installed "tmux-prefix-highlight"
+[2025-09-29 10:53:10.745]	Already installed "tmux-cpu"
+[2025-09-29 10:53:10.746]	Already installed "tpm"
+[2025-09-29 10:53:10.747]	Already installed "tmux-battery"
+[2025-09-29 10:53:10.748]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-09-29 10:53:10.761]	Updating all plugins!
+[2025-09-29 10:53:10.763]	
+[2025-09-29 10:53:10.781]	  "tmux-copycat" update fail
+[2025-09-29 10:53:10.783]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-29 10:53:10.784]	    | error: Please commit or stash them.
+[2025-09-29 10:53:10.787]	  "tmux-cpu" update fail
+[2025-09-29 10:53:10.788]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-29 10:53:10.790]	    | error: Please commit or stash them.
+[2025-09-29 10:53:10.791]	  "tmux-continuum" update fail
+[2025-09-29 10:53:10.793]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-29 10:53:10.794]	    | error: Please commit or stash them.
+[2025-09-29 10:53:10.798]	  "tpm" update fail
+[2025-09-29 10:53:10.799]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-29 10:53:10.800]	    | error: Please commit or stash them.
+[2025-09-29 10:53:10.804]	  "tmux-sensible" update fail
+[2025-09-29 10:53:10.805]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-29 10:53:10.807]	    | error: Please commit or stash them.
+[2025-09-29 10:53:10.810]	  "tmux-battery" update fail
+[2025-09-29 10:53:10.811]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-29 10:53:10.813]	    | error: Please commit or stash them.
+[2025-09-29 10:53:10.816]	  "tmux-cpu" update fail
+[2025-09-29 10:53:10.817]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-29 10:53:10.818]	    | error: Please commit or stash them.
+[2025-09-29 10:53:10.822]	  "tmux-prefix-highlight" update fail
+[2025-09-29 10:53:10.824]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-29 10:53:10.825]	    | error: Please commit or stash them.
+[2025-09-29 10:53:10.827]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-09-29 10:53:10.889]	Done.
+
+[2025-09-30 12:29:11.914]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-09-30 12:29:11.916]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-09-30 12:29:11.948]	Already installed "tmux-copycat"
+[2025-09-30 12:29:11.949]	Already installed "tmux-cpu"
+[2025-09-30 12:29:11.950]	Already installed "tmux-continuum"
+[2025-09-30 12:29:11.950]	Already installed "tmux-battery"
+[2025-09-30 12:29:11.951]	Already installed "tmux-cpu"
+[2025-09-30 12:29:11.953]	Already installed "tpm"
+[2025-09-30 12:29:11.954]	Already installed "tmux-sensible"
+[2025-09-30 12:29:11.955]	Already installed "tmux-prefix-highlight"
+[2025-09-30 12:29:11.956]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-09-30 12:29:11.968]	Updating all plugins!
+[2025-09-30 12:29:11.969]	
+[2025-09-30 12:29:11.989]	  "tmux-copycat" update fail
+[2025-09-30 12:29:11.990]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-30 12:29:11.991]	    | error: Please commit or stash them.
+[2025-09-30 12:29:11.992]	  "tmux-cpu" update fail
+[2025-09-30 12:29:11.993]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-30 12:29:11.994]	    | error: Please commit or stash them.
+[2025-09-30 12:29:11.998]	  "tmux-continuum" update fail
+[2025-09-30 12:29:11.999]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-30 12:29:12.000]	    | error: Please commit or stash them.
+[2025-09-30 12:29:12.004]	  "tpm" update fail
+[2025-09-30 12:29:12.005]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-30 12:29:12.006]	    | error: Please commit or stash them.
+[2025-09-30 12:29:12.009]	  "tmux-sensible" update fail
+[2025-09-30 12:29:12.010]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-30 12:29:12.011]	    | error: Please commit or stash them.
+[2025-09-30 12:29:12.013]	  "tmux-battery" update fail
+[2025-09-30 12:29:12.014]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-30 12:29:12.015]	    | error: Please commit or stash them.
+[2025-09-30 12:29:12.018]	  "tmux-cpu" update fail
+[2025-09-30 12:29:12.019]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-30 12:29:12.020]	    | error: Please commit or stash them.
+[2025-09-30 12:29:12.025]	  "tmux-prefix-highlight" update fail
+[2025-09-30 12:29:12.027]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-09-30 12:29:12.028]	    | error: Please commit or stash them.
+[2025-09-30 12:29:12.029]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-09-30 12:29:12.093]	Done.
+
+[2025-10-02 09:58:58.484]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-10-02 09:58:58.486]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-10-02 09:58:58.515]	Already installed "tmux-copycat"
+[2025-10-02 09:58:58.516]	Already installed "tmux-cpu"
+[2025-10-02 09:58:58.517]	Already installed "tmux-continuum"
+[2025-10-02 09:58:58.518]	Already installed "tpm"
+[2025-10-02 09:58:58.519]	Already installed "tmux-sensible"
+[2025-10-02 09:58:58.520]	Already installed "tmux-cpu"
+[2025-10-02 09:58:58.521]	Already installed "tmux-prefix-highlight"
+[2025-10-02 09:58:58.522]	Already installed "tmux-battery"
+[2025-10-02 09:58:58.524]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-10-02 09:58:58.536]	Updating all plugins!
+[2025-10-02 09:58:58.537]	
+[2025-10-02 09:58:58.556]	  "tmux-copycat" update fail
+[2025-10-02 09:58:58.558]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-02 09:58:58.559]	    | error: Please commit or stash them.
+[2025-10-02 09:58:58.561]	  "tmux-cpu" update fail
+[2025-10-02 09:58:58.563]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-02 09:58:58.564]	    | error: Please commit or stash them.
+[2025-10-02 09:58:58.566]	  "tmux-continuum" update fail
+[2025-10-02 09:58:58.568]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-02 09:58:58.569]	    | error: Please commit or stash them.
+[2025-10-02 09:58:58.572]	  "tpm" update fail
+[2025-10-02 09:58:58.573]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-02 09:58:58.574]	    | error: Please commit or stash them.
+[2025-10-02 09:58:58.577]	  "tmux-sensible" update fail
+[2025-10-02 09:58:58.578]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-02 09:58:58.579]	    | error: Please commit or stash them.
+[2025-10-02 09:58:58.583]	  "tmux-battery" update fail
+[2025-10-02 09:58:58.585]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-02 09:58:58.586]	    | error: Please commit or stash them.
+[2025-10-02 09:58:58.588]	  "tmux-cpu" update fail
+[2025-10-02 09:58:58.589]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-02 09:58:58.590]	    | error: Please commit or stash them.
+[2025-10-02 09:58:58.594]	  "tmux-prefix-highlight" update fail
+[2025-10-02 09:58:58.595]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-02 09:58:58.597]	    | error: Please commit or stash them.
+[2025-10-02 09:58:58.598]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-10-02 09:58:58.665]	Done.
+
+[2025-10-06 15:17:07.812]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-10-06 15:17:07.814]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-10-06 15:17:07.844]	Already installed "tmux-cpu"
+[2025-10-06 15:17:07.845]	Already installed "tpm"
+[2025-10-06 15:17:07.846]	Already installed "tmux-copycat"
+[2025-10-06 15:17:07.847]	Already installed "tmux-continuum"
+[2025-10-06 15:17:07.848]	Already installed "tmux-sensible"
+[2025-10-06 15:17:07.849]	Already installed "tmux-battery"
+[2025-10-06 15:17:07.850]	Already installed "tmux-prefix-highlight"
+[2025-10-06 15:17:07.851]	Already installed "tmux-cpu"
+[2025-10-06 15:17:07.852]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-10-06 15:17:07.865]	Updating all plugins!
+[2025-10-06 15:17:07.866]	
+[2025-10-06 15:17:07.885]	  "tmux-copycat" update fail
+[2025-10-06 15:17:07.887]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-06 15:17:07.888]	    | error: Please commit or stash them.
+[2025-10-06 15:17:07.889]	  "tmux-cpu" update fail
+[2025-10-06 15:17:07.891]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-06 15:17:07.892]	    | error: Please commit or stash them.
+[2025-10-06 15:17:07.895]	  "tmux-continuum" update fail
+[2025-10-06 15:17:07.897]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-06 15:17:07.898]	    | error: Please commit or stash them.
+[2025-10-06 15:17:07.901]	  "tpm" update fail
+[2025-10-06 15:17:07.902]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-06 15:17:07.903]	    | error: Please commit or stash them.
+[2025-10-06 15:17:07.906]	  "tmux-sensible" update fail
+[2025-10-06 15:17:07.907]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-06 15:17:07.908]	    | error: Please commit or stash them.
+[2025-10-06 15:17:07.913]	  "tmux-battery" update fail
+[2025-10-06 15:17:07.915]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-06 15:17:07.916]	    | error: Please commit or stash them.
+[2025-10-06 15:17:07.918]	  "tmux-cpu" update fail
+[2025-10-06 15:17:07.919]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-06 15:17:07.920]	    | error: Please commit or stash them.
+[2025-10-06 15:17:07.923]	  "tmux-prefix-highlight" update fail
+[2025-10-06 15:17:07.925]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-06 15:17:07.926]	    | error: Please commit or stash them.
+[2025-10-06 15:17:07.927]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-10-06 15:17:07.990]	Done.
+
+[2025-10-08 10:12:48.289]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-10-08 10:12:48.292]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-10-08 10:12:48.321]	Already installed "tmux-cpu"
+[2025-10-08 10:12:48.322]	Already installed "tmux-continuum"
+[2025-10-08 10:12:48.323]	Already installed "tmux-copycat"
+[2025-10-08 10:12:48.324]	Already installed "tpm"
+[2025-10-08 10:12:48.325]	Already installed "tmux-cpu"
+[2025-10-08 10:12:48.326]	Already installed "tmux-battery"
+[2025-10-08 10:12:48.327]	Already installed "tmux-sensible"
+[2025-10-08 10:12:48.328]	Already installed "tmux-prefix-highlight"
+[2025-10-08 10:12:48.330]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-10-08 10:12:48.342]	Updating all plugins!
+[2025-10-08 10:12:48.343]	
+[2025-10-08 10:12:48.362]	  "tmux-copycat" update fail
+[2025-10-08 10:12:48.364]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-08 10:12:48.365]	    | error: Please commit or stash them.
+[2025-10-08 10:12:48.368]	  "tmux-cpu" update fail
+[2025-10-08 10:12:48.369]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-08 10:12:48.370]	    | error: Please commit or stash them.
+[2025-10-08 10:12:48.372]	  "tmux-continuum" update fail
+[2025-10-08 10:12:48.374]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-08 10:12:48.375]	    | error: Please commit or stash them.
+[2025-10-08 10:12:48.378]	  "tpm" update fail
+[2025-10-08 10:12:48.379]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-08 10:12:48.380]	    | error: Please commit or stash them.
+[2025-10-08 10:12:48.384]	  "tmux-sensible" update fail
+[2025-10-08 10:12:48.385]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-08 10:12:48.386]	    | error: Please commit or stash them.
+[2025-10-08 10:12:48.389]	  "tmux-battery" update fail
+[2025-10-08 10:12:48.391]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-08 10:12:48.392]	    | error: Please commit or stash them.
+[2025-10-08 10:12:48.395]	  "tmux-cpu" update fail
+[2025-10-08 10:12:48.396]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-08 10:12:48.397]	    | error: Please commit or stash them.
+[2025-10-08 10:12:48.400]	  "tmux-prefix-highlight" update fail
+[2025-10-08 10:12:48.402]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-08 10:12:48.403]	    | error: Please commit or stash them.
+[2025-10-08 10:12:48.405]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-10-08 10:12:48.470]	Done.
+
+[2025-10-10 15:53:53.237]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-10-10 15:53:53.239]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-10-10 15:53:53.270]	Already installed "tpm"
+[2025-10-10 15:53:53.271]	Already installed "tmux-copycat"
+[2025-10-10 15:53:53.272]	Already installed "tmux-cpu"
+[2025-10-10 15:53:53.273]	Already installed "tmux-continuum"
+[2025-10-10 15:53:53.274]	Already installed "tmux-battery"
+[2025-10-10 15:53:53.275]	Already installed "tmux-sensible"
+[2025-10-10 15:53:53.276]	Already installed "tmux-cpu"
+[2025-10-10 15:53:53.277]	Already installed "tmux-prefix-highlight"
+[2025-10-10 15:53:53.278]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-10-10 15:53:53.291]	Updating all plugins!
+[2025-10-10 15:53:53.292]	
+[2025-10-10 15:53:53.312]	  "tmux-copycat" update fail
+[2025-10-10 15:53:53.314]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-10 15:53:53.315]	    | error: Please commit or stash them.
+[2025-10-10 15:53:53.317]	  "tmux-cpu" update fail
+[2025-10-10 15:53:53.318]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-10 15:53:53.319]	    | error: Please commit or stash them.
+[2025-10-10 15:53:53.322]	  "tmux-continuum" update fail
+[2025-10-10 15:53:53.324]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-10 15:53:53.325]	    | error: Please commit or stash them.
+[2025-10-10 15:53:53.328]	  "tpm" update fail
+[2025-10-10 15:53:53.330]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-10 15:53:53.331]	    | error: Please commit or stash them.
+[2025-10-10 15:53:53.334]	  "tmux-sensible" update fail
+[2025-10-10 15:53:53.335]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-10 15:53:53.336]	    | error: Please commit or stash them.
+[2025-10-10 15:53:53.339]	  "tmux-battery" update fail
+[2025-10-10 15:53:53.341]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-10 15:53:53.342]	    | error: Please commit or stash them.
+[2025-10-10 15:53:53.344]	  "tmux-cpu" update fail
+[2025-10-10 15:53:53.346]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-10 15:53:53.347]	    | error: Please commit or stash them.
+[2025-10-10 15:53:53.351]	  "tmux-prefix-highlight" update fail
+[2025-10-10 15:53:53.352]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-10 15:53:53.353]	    | error: Please commit or stash them.
+[2025-10-10 15:53:53.354]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-10-10 15:53:53.421]	Done.
+
+[2025-10-10 15:57:13.233]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-10-10 15:57:13.235]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-10-10 15:57:13.264]	Already installed "tmux-cpu"
+[2025-10-10 15:57:13.265]	Already installed "tmux-copycat"
+[2025-10-10 15:57:13.266]	Already installed "tmux-sensible"
+[2025-10-10 15:57:13.267]	Already installed "tmux-battery"
+[2025-10-10 15:57:13.268]	Already installed "tmux-continuum"
+[2025-10-10 15:57:13.270]	Already installed "tpm"
+[2025-10-10 15:57:13.270]	Already installed "tmux-cpu"
+[2025-10-10 15:57:13.271]	Already installed "tmux-prefix-highlight"
+[2025-10-10 15:57:13.273]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-10-10 15:57:13.285]	Updating all plugins!
+[2025-10-10 15:57:13.286]	
+[2025-10-10 15:57:13.304]	  "tmux-copycat" update fail
+[2025-10-10 15:57:13.306]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-10 15:57:13.307]	    | error: Please commit or stash them.
+[2025-10-10 15:57:13.309]	  "tmux-cpu" update fail
+[2025-10-10 15:57:13.311]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-10 15:57:13.312]	    | error: Please commit or stash them.
+[2025-10-10 15:57:13.316]	  "tmux-continuum" update fail
+[2025-10-10 15:57:13.317]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-10 15:57:13.318]	    | error: Please commit or stash them.
+[2025-10-10 15:57:13.322]	  "tpm" update fail
+[2025-10-10 15:57:13.323]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-10 15:57:13.324]	    | error: Please commit or stash them.
+[2025-10-10 15:57:13.327]	  "tmux-sensible" update fail
+[2025-10-10 15:57:13.329]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-10 15:57:13.330]	    | error: Please commit or stash them.
+[2025-10-10 15:57:13.333]	  "tmux-battery" update fail
+[2025-10-10 15:57:13.335]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-10 15:57:13.336]	    | error: Please commit or stash them.
+[2025-10-10 15:57:13.339]	  "tmux-cpu" update fail
+[2025-10-10 15:57:13.341]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-10 15:57:13.342]	    | error: Please commit or stash them.
+[2025-10-10 15:57:13.345]	  "tmux-prefix-highlight" update fail
+[2025-10-10 15:57:13.347]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-10 15:57:13.348]	    | error: Please commit or stash them.
+[2025-10-10 15:57:13.349]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-10-10 15:57:13.418]	Done.
+
+[2025-10-15 09:48:56.879]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-10-15 09:48:56.882]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-10-15 09:48:56.922]	Already installed "tmux-continuum"
+[2025-10-15 09:48:56.923]	Already installed "tmux-cpu"
+[2025-10-15 09:48:56.925]	Already installed "tpm"
+[2025-10-15 09:48:56.926]	Already installed "tmux-sensible"
+[2025-10-15 09:48:56.927]	Already installed "tmux-copycat"
+[2025-10-15 09:48:56.929]	Already installed "tmux-cpu"
+[2025-10-15 09:48:56.931]	Already installed "tmux-battery"
+[2025-10-15 09:48:56.932]	Already installed "tmux-prefix-highlight"
+[2025-10-15 09:48:56.934]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-10-15 09:48:56.952]	Updating all plugins!
+[2025-10-15 09:48:56.954]	
+[2025-10-15 09:48:56.982]	  "tmux-copycat" update fail
+[2025-10-15 09:48:56.985]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-15 09:48:56.987]	    | error: Please commit or stash them.
+[2025-10-15 09:48:56.990]	  "tmux-cpu" update fail
+[2025-10-15 09:48:56.993]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-15 09:48:56.994]	    | error: Please commit or stash them.
+[2025-10-15 09:48:56.998]	  "tmux-continuum" update fail
+[2025-10-15 09:48:57.000]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-15 09:48:57.001]	    | error: Please commit or stash them.
+[2025-10-15 09:48:57.006]	  "tpm" update fail
+[2025-10-15 09:48:57.009]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-15 09:48:57.011]	    | error: Please commit or stash them.
+[2025-10-15 09:48:57.014]	  "tmux-sensible" update fail
+[2025-10-15 09:48:57.016]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-15 09:48:57.018]	    | error: Please commit or stash them.
+[2025-10-15 09:48:57.024]	  "tmux-battery" update fail
+[2025-10-15 09:48:57.026]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-15 09:48:57.028]	    | error: Please commit or stash them.
+[2025-10-15 09:48:57.033]	  "tmux-cpu" update fail
+[2025-10-15 09:48:57.036]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-15 09:48:57.037]	    | error: Please commit or stash them.
+[2025-10-15 09:48:57.043]	  "tmux-prefix-highlight" update fail
+[2025-10-15 09:48:57.046]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-15 09:48:57.047]	    | error: Please commit or stash them.
+[2025-10-15 09:48:57.049]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-10-15 09:48:57.149]	Done.
+
+[2025-10-17 12:02:09.738]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-10-17 12:02:09.741]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-10-17 12:02:09.775]	Already installed "tmux-copycat"
+[2025-10-17 12:02:09.777]	Already installed "tmux-continuum"
+[2025-10-17 12:02:09.778]	Already installed "tmux-cpu"
+[2025-10-17 12:02:09.780]	Already installed "tpm"
+[2025-10-17 12:02:09.781]	Already installed "tmux-sensible"
+[2025-10-17 12:02:09.782]	Already installed "tmux-cpu"
+[2025-10-17 12:02:09.784]	Already installed "tmux-prefix-highlight"
+[2025-10-17 12:02:09.785]	Already installed "tmux-battery"
+[2025-10-17 12:02:09.787]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-10-17 12:02:09.804]	Updating all plugins!
+[2025-10-17 12:02:09.806]	
+[2025-10-17 12:02:09.829]	  "tmux-copycat" update fail
+[2025-10-17 12:02:09.831]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-17 12:02:09.832]	    | error: Please commit or stash them.
+[2025-10-17 12:02:09.834]	  "tmux-cpu" update fail
+[2025-10-17 12:02:09.836]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-17 12:02:09.838]	    | error: Please commit or stash them.
+[2025-10-17 12:02:09.840]	  "tmux-continuum" update fail
+[2025-10-17 12:02:09.842]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-17 12:02:09.843]	    | error: Please commit or stash them.
+[2025-10-17 12:02:09.847]	  "tpm" update fail
+[2025-10-17 12:02:09.849]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-17 12:02:09.851]	    | error: Please commit or stash them.
+[2025-10-17 12:02:09.854]	  "tmux-sensible" update fail
+[2025-10-17 12:02:09.856]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-17 12:02:09.857]	    | error: Please commit or stash them.
+[2025-10-17 12:02:09.862]	  "tmux-battery" update fail
+[2025-10-17 12:02:09.864]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-17 12:02:09.865]	    | error: Please commit or stash them.
+[2025-10-17 12:02:09.867]	  "tmux-cpu" update fail
+[2025-10-17 12:02:09.869]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-17 12:02:09.871]	    | error: Please commit or stash them.
+[2025-10-17 12:02:09.875]	  "tmux-prefix-highlight" update fail
+[2025-10-17 12:02:09.877]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-17 12:02:09.878]	    | error: Please commit or stash them.
+[2025-10-17 12:02:09.880]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-10-17 12:02:09.963]	Done.
+
+[2025-10-17 14:49:25.700]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-10-17 14:49:25.702]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-10-17 14:49:25.739]	Already installed "tmux-copycat"
+[2025-10-17 14:49:25.741]	Already installed "tpm"
+[2025-10-17 14:49:25.742]	Already installed "tmux-continuum"
+[2025-10-17 14:49:25.743]	Already installed "tmux-cpu"
+[2025-10-17 14:49:25.745]	Already installed "tmux-sensible"
+[2025-10-17 14:49:25.746]	Already installed "tmux-battery"
+[2025-10-17 14:49:25.747]	Already installed "tmux-cpu"
+[2025-10-17 14:49:25.748]	Already installed "tmux-prefix-highlight"
+[2025-10-17 14:49:25.750]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-10-17 14:49:25.767]	Updating all plugins!
+[2025-10-17 14:49:25.768]	
+[2025-10-17 14:49:25.790]	  "tmux-copycat" update fail
+[2025-10-17 14:49:25.792]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-17 14:49:25.793]	    | error: Please commit or stash them.
+[2025-10-17 14:49:25.796]	  "tmux-cpu" update fail
+[2025-10-17 14:49:25.798]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-17 14:49:25.799]	    | error: Please commit or stash them.
+[2025-10-17 14:49:25.802]	  "tmux-continuum" update fail
+[2025-10-17 14:49:25.804]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-17 14:49:25.805]	    | error: Please commit or stash them.
+[2025-10-17 14:49:25.810]	  "tpm" update fail
+[2025-10-17 14:49:25.812]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-17 14:49:25.814]	    | error: Please commit or stash them.
+[2025-10-17 14:49:25.816]	  "tmux-sensible" update fail
+[2025-10-17 14:49:25.818]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-17 14:49:25.819]	    | error: Please commit or stash them.
+[2025-10-17 14:49:25.823]	  "tmux-battery" update fail
+[2025-10-17 14:49:25.825]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-17 14:49:25.826]	    | error: Please commit or stash them.
+[2025-10-17 14:49:25.830]	  "tmux-cpu" update fail
+[2025-10-17 14:49:25.832]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-17 14:49:25.833]	    | error: Please commit or stash them.
+[2025-10-17 14:49:25.837]	  "tmux-prefix-highlight" update fail
+[2025-10-17 14:49:25.839]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-17 14:49:25.840]	    | error: Please commit or stash them.
+[2025-10-17 14:49:25.842]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-10-17 14:49:25.925]	Done.
+
+[2025-10-18 20:36:45.000]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-10-18 20:36:45.003]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-10-18 20:36:45.033]	Already installed "tmux-copycat"
+[2025-10-18 20:36:45.034]	Already installed "tmux-cpu"
+[2025-10-18 20:36:45.035]	Already installed "tmux-continuum"
+[2025-10-18 20:36:45.036]	Already installed "tpm"
+[2025-10-18 20:36:45.037]	Already installed "tmux-battery"
+[2025-10-18 20:36:45.038]	Already installed "tmux-cpu"
+[2025-10-18 20:36:45.039]	Already installed "tmux-sensible"
+[2025-10-18 20:36:45.040]	Already installed "tmux-prefix-highlight"
+[2025-10-18 20:36:45.041]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-10-18 20:36:45.054]	Updating all plugins!
+[2025-10-18 20:36:45.055]	
+[2025-10-18 20:36:45.073]	  "tmux-copycat" update fail
+[2025-10-18 20:36:45.074]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-18 20:36:45.075]	    | error: Please commit or stash them.
+[2025-10-18 20:36:45.076]	  "tmux-cpu" update fail
+[2025-10-18 20:36:45.077]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-18 20:36:45.078]	    | error: Please commit or stash them.
+[2025-10-18 20:36:45.082]	  "tmux-continuum" update fail
+[2025-10-18 20:36:45.084]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-18 20:36:45.085]	    | error: Please commit or stash them.
+[2025-10-18 20:36:45.086]	  "tpm" update fail
+[2025-10-18 20:36:45.087]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-18 20:36:45.088]	    | error: Please commit or stash them.
+[2025-10-18 20:36:45.092]	  "tmux-sensible" update fail
+[2025-10-18 20:36:45.094]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-18 20:36:45.095]	    | error: Please commit or stash them.
+[2025-10-18 20:36:45.099]	  "tmux-battery" update fail
+[2025-10-18 20:36:45.100]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-18 20:36:45.101]	    | error: Please commit or stash them.
+[2025-10-18 20:36:45.103]	  "tmux-cpu" update fail
+[2025-10-18 20:36:45.105]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-18 20:36:45.106]	    | error: Please commit or stash them.
+[2025-10-18 20:36:45.109]	  "tmux-prefix-highlight" update fail
+[2025-10-18 20:36:45.111]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-18 20:36:45.112]	    | error: Please commit or stash them.
+[2025-10-18 20:36:45.114]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-10-18 20:36:45.186]	Done.
+
+[2025-10-24 14:38:28.791]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-10-24 14:38:28.793]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-10-24 14:38:28.824]	Already installed "tmux-cpu"
+[2025-10-24 14:38:28.825]	Already installed "tmux-copycat"
+[2025-10-24 14:38:28.826]	Already installed "tmux-battery"
+[2025-10-24 14:38:28.827]	Already installed "tmux-continuum"
+[2025-10-24 14:38:28.828]	Already installed "tpm"
+[2025-10-24 14:38:28.829]	Already installed "tmux-sensible"
+[2025-10-24 14:38:28.829]	Already installed "tmux-cpu"
+[2025-10-24 14:38:28.830]	Already installed "tmux-prefix-highlight"
+[2025-10-24 14:38:28.832]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-10-24 14:38:28.844]	Updating all plugins!
+[2025-10-24 14:38:28.845]	
+[2025-10-24 14:38:28.863]	  "tmux-copycat" update fail
+[2025-10-24 14:38:28.865]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-24 14:38:28.866]	    | error: Please commit or stash them.
+[2025-10-24 14:38:28.868]	  "tmux-cpu" update fail
+[2025-10-24 14:38:28.869]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-24 14:38:28.871]	    | error: Please commit or stash them.
+[2025-10-24 14:38:28.873]	  "tmux-continuum" update fail
+[2025-10-24 14:38:28.875]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-24 14:38:28.876]	    | error: Please commit or stash them.
+[2025-10-24 14:38:28.880]	  "tpm" update fail
+[2025-10-24 14:38:28.881]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-24 14:38:28.882]	    | error: Please commit or stash them.
+[2025-10-24 14:38:28.886]	  "tmux-sensible" update fail
+[2025-10-24 14:38:28.887]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-24 14:38:28.889]	    | error: Please commit or stash them.
+[2025-10-24 14:38:28.891]	  "tmux-battery" update fail
+[2025-10-24 14:38:28.893]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-24 14:38:28.894]	    | error: Please commit or stash them.
+[2025-10-24 14:38:28.898]	  "tmux-cpu" update fail
+[2025-10-24 14:38:28.899]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-24 14:38:28.900]	    | error: Please commit or stash them.
+[2025-10-24 14:38:28.904]	  "tmux-prefix-highlight" update fail
+[2025-10-24 14:38:28.906]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-24 14:38:28.907]	    | error: Please commit or stash them.
+[2025-10-24 14:38:28.908]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-10-24 14:38:28.976]	Done.
+
+[2025-10-27 11:10:53.104]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-10-27 11:10:53.107]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-10-27 11:10:53.137]	Already installed "tmux-copycat"
+[2025-10-27 11:10:53.138]	Already installed "tmux-sensible"
+[2025-10-27 11:10:53.139]	Already installed "tpm"
+[2025-10-27 11:10:53.140]	Already installed "tmux-continuum"
+[2025-10-27 11:10:53.141]	Already installed "tmux-cpu"
+[2025-10-27 11:10:53.142]	Already installed "tmux-battery"
+[2025-10-27 11:10:53.143]	Already installed "tmux-cpu"
+[2025-10-27 11:10:53.144]	Already installed "tmux-prefix-highlight"
+[2025-10-27 11:10:53.146]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-10-27 11:10:53.159]	Updating all plugins!
+[2025-10-27 11:10:53.160]	
+[2025-10-27 11:10:53.176]	  "tmux-copycat" update fail
+[2025-10-27 11:10:53.178]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-27 11:10:53.179]	    | error: Please commit or stash them.
+[2025-10-27 11:10:53.181]	  "tmux-cpu" update fail
+[2025-10-27 11:10:53.183]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-27 11:10:53.184]	    | error: Please commit or stash them.
+[2025-10-27 11:10:53.188]	  "tmux-continuum" update fail
+[2025-10-27 11:10:53.189]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-27 11:10:53.190]	    | error: Please commit or stash them.
+[2025-10-27 11:10:53.194]	  "tpm" update fail
+[2025-10-27 11:10:53.196]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-27 11:10:53.197]	    | error: Please commit or stash them.
+[2025-10-27 11:10:53.199]	  "tmux-sensible" update fail
+[2025-10-27 11:10:53.201]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-27 11:10:53.202]	    | error: Please commit or stash them.
+[2025-10-27 11:10:53.206]	  "tmux-battery" update fail
+[2025-10-27 11:10:53.208]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-27 11:10:53.209]	    | error: Please commit or stash them.
+[2025-10-27 11:10:53.210]	  "tmux-cpu" update fail
+[2025-10-27 11:10:53.212]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-27 11:10:53.213]	    | error: Please commit or stash them.
+[2025-10-27 11:10:53.217]	  "tmux-prefix-highlight" update fail
+[2025-10-27 11:10:53.218]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-27 11:10:53.219]	    | error: Please commit or stash them.
+[2025-10-27 11:10:53.221]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-10-27 11:10:53.291]	Done.
+
+[2025-10-28 14:56:41.652]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-10-28 14:56:41.655]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-10-28 14:56:41.684]	Already installed "tpm"
+[2025-10-28 14:56:41.685]	Already installed "tmux-sensible"
+[2025-10-28 14:56:41.686]	Already installed "tmux-cpu"
+[2025-10-28 14:56:41.687]	Already installed "tmux-copycat"
+[2025-10-28 14:56:41.688]	Already installed "tmux-cpu"
+[2025-10-28 14:56:41.689]	Already installed "tmux-battery"
+[2025-10-28 14:56:41.690]	Already installed "tmux-continuum"
+[2025-10-28 14:56:41.691]	Already installed "tmux-prefix-highlight"
+[2025-10-28 14:56:41.693]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-10-28 14:56:41.704]	Updating all plugins!
+[2025-10-28 14:56:41.705]	
+[2025-10-28 14:56:41.723]	  "tmux-copycat" update fail
+[2025-10-28 14:56:41.725]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-28 14:56:41.726]	    | error: Please commit or stash them.
+[2025-10-28 14:56:41.728]	  "tmux-cpu" update fail
+[2025-10-28 14:56:41.730]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-28 14:56:41.731]	    | error: Please commit or stash them.
+[2025-10-28 14:56:41.734]	  "tmux-continuum" update fail
+[2025-10-28 14:56:41.735]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-28 14:56:41.736]	    | error: Please commit or stash them.
+[2025-10-28 14:56:41.740]	  "tpm" update fail
+[2025-10-28 14:56:41.741]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-28 14:56:41.742]	    | error: Please commit or stash them.
+[2025-10-28 14:56:41.746]	  "tmux-sensible" update fail
+[2025-10-28 14:56:41.747]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-28 14:56:41.748]	    | error: Please commit or stash them.
+[2025-10-28 14:56:41.752]	  "tmux-battery" update fail
+[2025-10-28 14:56:41.754]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-28 14:56:41.755]	    | error: Please commit or stash them.
+[2025-10-28 14:56:41.757]	  "tmux-cpu" update fail
+[2025-10-28 14:56:41.759]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-28 14:56:41.760]	    | error: Please commit or stash them.
+[2025-10-28 14:56:41.763]	  "tmux-prefix-highlight" update fail
+[2025-10-28 14:56:41.764]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-28 14:56:41.765]	    | error: Please commit or stash them.
+[2025-10-28 14:56:41.767]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-10-28 14:56:41.834]	Done.
+
+[2025-10-30 12:13:51.398]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-10-30 12:13:51.411]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-10-30 12:13:51.563]	Already installed "tmux-cpu"
+[2025-10-30 12:13:51.583]	Already installed "tmux-copycat"
+[2025-10-30 12:13:51.587]	Already installed "tmux-battery"
+[2025-10-30 12:13:51.631]	Already installed "tmux-cpu"
+[2025-10-30 12:13:51.636]	Already installed "tmux-prefix-highlight"
+[2025-10-30 12:13:51.642]	Already installed "tpm"
+[2025-10-30 12:13:51.652]	Already installed "tmux-continuum"
+[2025-10-30 12:13:51.700]	Already installed "tmux-sensible"
+[2025-10-30 12:13:51.714]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-10-30 12:13:51.976]	Updating all plugins!
+[2025-10-30 12:13:51.982]	
+[2025-10-30 12:13:52.174]	  "tmux-copycat" update fail
+[2025-10-30 12:13:52.181]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-30 12:13:52.184]	    | error: Please commit or stash them.
+[2025-10-30 12:13:52.191]	  "tmux-cpu" update fail
+[2025-10-30 12:13:52.196]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-30 12:13:52.199]	    | error: Please commit or stash them.
+[2025-10-30 12:13:52.247]	  "tmux-continuum" update fail
+[2025-10-30 12:13:52.270]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-30 12:13:52.274]	    | error: Please commit or stash them.
+[2025-10-30 12:13:52.290]	  "tpm" update fail
+[2025-10-30 12:13:52.299]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-30 12:13:52.304]	    | error: Please commit or stash them.
+[2025-10-30 12:13:52.375]	  "tmux-sensible" update fail
+[2025-10-30 12:13:52.384]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-30 12:13:52.389]	    | error: Please commit or stash them.
+[2025-10-30 12:13:52.416]	  "tmux-battery" update fail
+[2025-10-30 12:13:52.430]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-30 12:13:52.436]	    | error: Please commit or stash them.
+[2025-10-30 12:13:52.450]	  "tmux-cpu" update fail
+[2025-10-30 12:13:52.457]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-30 12:13:52.460]	    | error: Please commit or stash them.
+[2025-10-30 12:13:52.476]	  "tmux-prefix-highlight" update fail
+[2025-10-30 12:13:52.482]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-30 12:13:52.486]	    | error: Please commit or stash them.
+[2025-10-30 12:13:52.492]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-10-30 12:13:52.739]	Done.
+
+[2025-10-31 11:56:36.134]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-10-31 11:56:36.136]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-10-31 11:56:36.175]	Already installed "tmux-cpu"
+[2025-10-31 11:56:36.176]	Already installed "tmux-continuum"
+[2025-10-31 11:56:36.177]	Already installed "tpm"
+[2025-10-31 11:56:36.178]	Already installed "tmux-cpu"
+[2025-10-31 11:56:36.180]	Already installed "tmux-copycat"
+[2025-10-31 11:56:36.181]	Already installed "tmux-battery"
+[2025-10-31 11:56:36.182]	Already installed "tmux-prefix-highlight"
+[2025-10-31 11:56:36.183]	Already installed "tmux-sensible"
+[2025-10-31 11:56:36.185]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-10-31 11:56:36.201]	Updating all plugins!
+[2025-10-31 11:56:36.202]	
+[2025-10-31 11:56:36.226]	  "tmux-copycat" update fail
+[2025-10-31 11:56:36.228]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-31 11:56:36.230]	    | error: Please commit or stash them.
+[2025-10-31 11:56:36.233]	  "tmux-cpu" update fail
+[2025-10-31 11:56:36.236]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-31 11:56:36.237]	    | error: Please commit or stash them.
+[2025-10-31 11:56:36.240]	  "tmux-continuum" update fail
+[2025-10-31 11:56:36.241]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-31 11:56:36.243]	    | error: Please commit or stash them.
+[2025-10-31 11:56:36.247]	  "tpm" update fail
+[2025-10-31 11:56:36.249]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-31 11:56:36.250]	    | error: Please commit or stash them.
+[2025-10-31 11:56:36.253]	  "tmux-sensible" update fail
+[2025-10-31 11:56:36.255]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-31 11:56:36.256]	    | error: Please commit or stash them.
+[2025-10-31 11:56:36.260]	  "tmux-battery" update fail
+[2025-10-31 11:56:36.262]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-31 11:56:36.263]	    | error: Please commit or stash them.
+[2025-10-31 11:56:36.266]	  "tmux-cpu" update fail
+[2025-10-31 11:56:36.269]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-31 11:56:36.270]	    | error: Please commit or stash them.
+[2025-10-31 11:56:36.275]	  "tmux-prefix-highlight" update fail
+[2025-10-31 11:56:36.279]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-10-31 11:56:36.281]	    | error: Please commit or stash them.
+[2025-10-31 11:56:36.283]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-10-31 11:56:36.380]	Done.
+
+[2025-11-03 10:55:14.898]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-11-03 10:55:14.900]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-11-03 10:55:14.929]	Already installed "tmux-copycat"
+[2025-11-03 10:55:14.930]	Already installed "tpm"
+[2025-11-03 10:55:14.931]	Already installed "tmux-continuum"
+[2025-11-03 10:55:14.932]	Already installed "tmux-cpu"
+[2025-11-03 10:55:14.933]	Already installed "tmux-sensible"
+[2025-11-03 10:55:14.934]	Already installed "tmux-prefix-highlight"
+[2025-11-03 10:55:14.935]	Already installed "tmux-cpu"
+[2025-11-03 10:55:14.936]	Already installed "tmux-battery"
+[2025-11-03 10:55:14.938]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-11-03 10:55:14.951]	Updating all plugins!
+[2025-11-03 10:55:14.952]	
+[2025-11-03 10:55:14.971]	  "tmux-copycat" update fail
+[2025-11-03 10:55:14.973]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-03 10:55:14.974]	    | error: Please commit or stash them.
+[2025-11-03 10:55:14.976]	  "tmux-cpu" update fail
+[2025-11-03 10:55:14.978]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-03 10:55:14.979]	    | error: Please commit or stash them.
+[2025-11-03 10:55:14.982]	  "tmux-continuum" update fail
+[2025-11-03 10:55:14.983]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-03 10:55:14.984]	    | error: Please commit or stash them.
+[2025-11-03 10:55:14.986]	  "tpm" update fail
+[2025-11-03 10:55:14.988]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-03 10:55:14.989]	    | error: Please commit or stash them.
+[2025-11-03 10:55:14.992]	  "tmux-sensible" update fail
+[2025-11-03 10:55:14.994]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-03 10:55:14.995]	    | error: Please commit or stash them.
+[2025-11-03 10:55:14.998]	  "tmux-battery" update fail
+[2025-11-03 10:55:15.000]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-03 10:55:15.001]	    | error: Please commit or stash them.
+[2025-11-03 10:55:15.002]	  "tmux-cpu" update fail
+[2025-11-03 10:55:15.004]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-03 10:55:15.005]	    | error: Please commit or stash them.
+[2025-11-03 10:55:15.009]	  "tmux-prefix-highlight" update fail
+[2025-11-03 10:55:15.011]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-03 10:55:15.011]	    | error: Please commit or stash them.
+[2025-11-03 10:55:15.013]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-11-03 10:55:15.079]	Done.
+
+[2025-11-05 10:32:33.383]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-11-05 10:32:33.385]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-11-05 10:32:33.416]	Already installed "tmux-cpu"
+[2025-11-05 10:32:33.416]	Already installed "tmux-copycat"
+[2025-11-05 10:32:33.417]	Already installed "tpm"
+[2025-11-05 10:32:33.418]	Already installed "tmux-sensible"
+[2025-11-05 10:32:33.419]	Already installed "tmux-continuum"
+[2025-11-05 10:32:33.420]	Already installed "tmux-battery"
+[2025-11-05 10:32:33.421]	Already installed "tmux-prefix-highlight"
+[2025-11-05 10:32:33.422]	Already installed "tmux-cpu"
+[2025-11-05 10:32:33.423]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-11-05 10:32:33.435]	Updating all plugins!
+[2025-11-05 10:32:33.436]	
+[2025-11-05 10:32:33.453]	  "tmux-copycat" update fail
+[2025-11-05 10:32:33.455]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-05 10:32:33.456]	    | error: Please commit or stash them.
+[2025-11-05 10:32:33.457]	  "tmux-cpu" update fail
+[2025-11-05 10:32:33.459]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-05 10:32:33.460]	    | error: Please commit or stash them.
+[2025-11-05 10:32:33.462]	  "tmux-continuum" update fail
+[2025-11-05 10:32:33.464]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-05 10:32:33.465]	    | error: Please commit or stash them.
+[2025-11-05 10:32:33.468]	  "tpm" update fail
+[2025-11-05 10:32:33.470]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-05 10:32:33.471]	    | error: Please commit or stash them.
+[2025-11-05 10:32:33.474]	  "tmux-sensible" update fail
+[2025-11-05 10:32:33.476]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-05 10:32:33.476]	    | error: Please commit or stash them.
+[2025-11-05 10:32:33.480]	  "tmux-battery" update fail
+[2025-11-05 10:32:33.481]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-05 10:32:33.482]	    | error: Please commit or stash them.
+[2025-11-05 10:32:33.485]	  "tmux-cpu" update fail
+[2025-11-05 10:32:33.487]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-05 10:32:33.488]	    | error: Please commit or stash them.
+[2025-11-05 10:32:33.491]	  "tmux-prefix-highlight" update fail
+[2025-11-05 10:32:33.492]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-05 10:32:33.494]	    | error: Please commit or stash them.
+[2025-11-05 10:32:33.495]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-11-05 10:32:33.561]	Done.
+
+[2025-11-07 09:33:31.969]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-11-07 09:33:31.972]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-11-07 09:33:32.001]	Already installed "tmux-copycat"
+[2025-11-07 09:33:32.002]	Already installed "tmux-continuum"
+[2025-11-07 09:33:32.003]	Already installed "tpm"
+[2025-11-07 09:33:32.005]	Already installed "tmux-cpu"
+[2025-11-07 09:33:32.006]	Already installed "tmux-cpu"
+[2025-11-07 09:33:32.007]	Already installed "tmux-battery"
+[2025-11-07 09:33:32.007]	Already installed "tmux-sensible"
+[2025-11-07 09:33:32.009]	Already installed "tmux-prefix-highlight"
+[2025-11-07 09:33:32.010]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-11-07 09:33:32.023]	Updating all plugins!
+[2025-11-07 09:33:32.024]	
+[2025-11-07 09:33:32.043]	  "tmux-copycat" update fail
+[2025-11-07 09:33:32.045]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-07 09:33:32.046]	    | error: Please commit or stash them.
+[2025-11-07 09:33:32.048]	  "tmux-cpu" update fail
+[2025-11-07 09:33:32.050]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-07 09:33:32.051]	    | error: Please commit or stash them.
+[2025-11-07 09:33:32.053]	  "tmux-continuum" update fail
+[2025-11-07 09:33:32.055]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-07 09:33:32.056]	    | error: Please commit or stash them.
+[2025-11-07 09:33:32.059]	  "tpm" update fail
+[2025-11-07 09:33:32.060]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-07 09:33:32.061]	    | error: Please commit or stash them.
+[2025-11-07 09:33:32.065]	  "tmux-sensible" update fail
+[2025-11-07 09:33:32.067]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-07 09:33:32.068]	    | error: Please commit or stash them.
+[2025-11-07 09:33:32.071]	  "tmux-battery" update fail
+[2025-11-07 09:33:32.073]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-07 09:33:32.074]	    | error: Please commit or stash them.
+[2025-11-07 09:33:32.077]	  "tmux-cpu" update fail
+[2025-11-07 09:33:32.078]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-07 09:33:32.079]	    | error: Please commit or stash them.
+[2025-11-07 09:33:32.083]	  "tmux-prefix-highlight" update fail
+[2025-11-07 09:33:32.085]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-07 09:33:32.086]	    | error: Please commit or stash them.
+[2025-11-07 09:33:32.087]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-11-07 09:33:32.155]	Done.
+
+[2025-11-10 14:46:43.958]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-11-10 14:46:43.959]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-11-10 14:46:43.991]	Already installed "tmux-copycat"
+[2025-11-10 14:46:43.992]	Already installed "tmux-cpu"
+[2025-11-10 14:46:43.993]	Already installed "tmux-continuum"
+[2025-11-10 14:46:43.994]	Already installed "tmux-sensible"
+[2025-11-10 14:46:43.995]	Already installed "tmux-cpu"
+[2025-11-10 14:46:43.996]	Already installed "tpm"
+[2025-11-10 14:46:43.997]	Already installed "tmux-battery"
+[2025-11-10 14:46:43.998]	Already installed "tmux-prefix-highlight"
+[2025-11-10 14:46:43.999]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-11-10 14:46:44.011]	Updating all plugins!
+[2025-11-10 14:46:44.012]	
+[2025-11-10 14:46:44.031]	  "tmux-copycat" update fail
+[2025-11-10 14:46:44.033]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-10 14:46:44.034]	    | error: Please commit or stash them.
+[2025-11-10 14:46:44.036]	  "tmux-cpu" update fail
+[2025-11-10 14:46:44.037]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-10 14:46:44.038]	    | error: Please commit or stash them.
+[2025-11-10 14:46:44.041]	  "tmux-continuum" update fail
+[2025-11-10 14:46:44.042]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-10 14:46:44.043]	    | error: Please commit or stash them.
+[2025-11-10 14:46:44.046]	  "tpm" update fail
+[2025-11-10 14:46:44.048]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-10 14:46:44.049]	    | error: Please commit or stash them.
+[2025-11-10 14:46:44.052]	  "tmux-sensible" update fail
+[2025-11-10 14:46:44.053]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-10 14:46:44.054]	    | error: Please commit or stash them.
+[2025-11-10 14:46:44.058]	  "tmux-battery" update fail
+[2025-11-10 14:46:44.059]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-10 14:46:44.060]	    | error: Please commit or stash them.
+[2025-11-10 14:46:44.063]	  "tmux-cpu" update fail
+[2025-11-10 14:46:44.065]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-10 14:46:44.066]	    | error: Please commit or stash them.
+[2025-11-10 14:46:44.069]	  "tmux-prefix-highlight" update fail
+[2025-11-10 14:46:44.071]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-10 14:46:44.072]	    | error: Please commit or stash them.
+[2025-11-10 14:46:44.074]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-11-10 14:46:44.141]	Done.
+
+[2025-11-11 11:04:23.987]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-11-11 11:04:23.989]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-11-11 11:04:24.019]	Already installed "tpm"
+[2025-11-11 11:04:24.020]	Already installed "tmux-battery"
+[2025-11-11 11:04:24.021]	Already installed "tmux-continuum"
+[2025-11-11 11:04:24.022]	Already installed "tmux-cpu"
+[2025-11-11 11:04:24.023]	Already installed "tmux-copycat"
+[2025-11-11 11:04:24.024]	Already installed "tmux-prefix-highlight"
+[2025-11-11 11:04:24.025]	Already installed "tmux-sensible"
+[2025-11-11 11:04:24.026]	Already installed "tmux-cpu"
+[2025-11-11 11:04:24.027]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-11-11 11:04:24.038]	Updating all plugins!
+[2025-11-11 11:04:24.039]	
+[2025-11-11 11:04:24.058]	  "tmux-copycat" update fail
+[2025-11-11 11:04:24.059]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-11 11:04:24.060]	    | error: Please commit or stash them.
+[2025-11-11 11:04:24.062]	  "tmux-cpu" update fail
+[2025-11-11 11:04:24.064]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-11 11:04:24.065]	    | error: Please commit or stash them.
+[2025-11-11 11:04:24.068]	  "tmux-continuum" update fail
+[2025-11-11 11:04:24.070]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-11 11:04:24.071]	    | error: Please commit or stash them.
+[2025-11-11 11:04:24.073]	  "tpm" update fail
+[2025-11-11 11:04:24.075]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-11 11:04:24.076]	    | error: Please commit or stash them.
+[2025-11-11 11:04:24.079]	  "tmux-sensible" update fail
+[2025-11-11 11:04:24.080]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-11 11:04:24.081]	    | error: Please commit or stash them.
+[2025-11-11 11:04:24.084]	  "tmux-battery" update fail
+[2025-11-11 11:04:24.086]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-11 11:04:24.087]	    | error: Please commit or stash them.
+[2025-11-11 11:04:24.089]	  "tmux-cpu" update fail
+[2025-11-11 11:04:24.091]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-11 11:04:24.092]	    | error: Please commit or stash them.
+[2025-11-11 11:04:24.096]	  "tmux-prefix-highlight" update fail
+[2025-11-11 11:04:24.097]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-11 11:04:24.098]	    | error: Please commit or stash them.
+[2025-11-11 11:04:24.100]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-11-11 11:04:24.166]	Done.
+
+[2025-11-12 10:37:04.396]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-11-12 10:37:04.398]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-11-12 10:37:04.429]	Already installed "tpm"
+[2025-11-12 10:37:04.430]	Already installed "tmux-copycat"
+[2025-11-12 10:37:04.431]	Already installed "tmux-battery"
+[2025-11-12 10:37:04.432]	Already installed "tmux-cpu"
+[2025-11-12 10:37:04.433]	Already installed "tmux-continuum"
+[2025-11-12 10:37:04.434]	Already installed "tmux-prefix-highlight"
+[2025-11-12 10:37:04.435]	Already installed "tmux-cpu"
+[2025-11-12 10:37:04.436]	Already installed "tmux-sensible"
+[2025-11-12 10:37:04.437]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-11-12 10:37:04.450]	Updating all plugins!
+[2025-11-12 10:37:04.451]	
+[2025-11-12 10:37:04.471]	  "tmux-copycat" update fail
+[2025-11-12 10:37:04.473]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-12 10:37:04.475]	    | error: Please commit or stash them.
+[2025-11-12 10:37:04.476]	  "tmux-cpu" update fail
+[2025-11-12 10:37:04.478]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-12 10:37:04.479]	    | error: Please commit or stash them.
+[2025-11-12 10:37:04.482]	  "tmux-continuum" update fail
+[2025-11-12 10:37:04.483]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-12 10:37:04.484]	    | error: Please commit or stash them.
+[2025-11-12 10:37:04.488]	  "tpm" update fail
+[2025-11-12 10:37:04.489]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-12 10:37:04.490]	    | error: Please commit or stash them.
+[2025-11-12 10:37:04.493]	  "tmux-sensible" update fail
+[2025-11-12 10:37:04.495]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-12 10:37:04.497]	    | error: Please commit or stash them.
+[2025-11-12 10:37:04.500]	  "tmux-battery" update fail
+[2025-11-12 10:37:04.502]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-12 10:37:04.503]	    | error: Please commit or stash them.
+[2025-11-12 10:37:04.505]	  "tmux-cpu" update fail
+[2025-11-12 10:37:04.507]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-12 10:37:04.508]	    | error: Please commit or stash them.
+[2025-11-12 10:37:04.512]	  "tmux-prefix-highlight" update fail
+[2025-11-12 10:37:04.513]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-11-12 10:37:04.514]	    | error: Please commit or stash them.
+[2025-11-12 10:37:04.516]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-11-12 10:37:04.583]	Done.
+
+[2025-12-02 09:51:49.146]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-12-02 09:51:49.148]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-12-02 09:51:49.179]	Already installed "tmux-continuum"
+[2025-12-02 09:51:49.180]	Already installed "tmux-sensible"
+[2025-12-02 09:51:49.181]	Already installed "tmux-cpu"
+[2025-12-02 09:51:49.182]	Already installed "tmux-copycat"
+[2025-12-02 09:51:49.183]	Already installed "tmux-battery"
+[2025-12-02 09:51:49.183]	Already installed "tpm"
+[2025-12-02 09:51:49.184]	Already installed "tmux-cpu"
+[2025-12-02 09:51:49.185]	Already installed "tmux-prefix-highlight"
+[2025-12-02 09:51:49.186]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-12-02 09:51:49.198]	Updating all plugins!
+[2025-12-02 09:51:49.199]	
+[2025-12-02 09:51:49.218]	  "tmux-copycat" update fail
+[2025-12-02 09:51:49.220]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-02 09:51:49.221]	    | error: Please commit or stash them.
+[2025-12-02 09:51:49.223]	  "tmux-cpu" update fail
+[2025-12-02 09:51:49.225]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-02 09:51:49.226]	    | error: Please commit or stash them.
+[2025-12-02 09:51:49.228]	  "tmux-continuum" update fail
+[2025-12-02 09:51:49.230]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-02 09:51:49.231]	    | error: Please commit or stash them.
+[2025-12-02 09:51:49.234]	  "tpm" update fail
+[2025-12-02 09:51:49.236]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-02 09:51:49.237]	    | error: Please commit or stash them.
+[2025-12-02 09:51:49.240]	  "tmux-sensible" update fail
+[2025-12-02 09:51:49.242]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-02 09:51:49.243]	    | error: Please commit or stash them.
+[2025-12-02 09:51:49.247]	  "tmux-battery" update fail
+[2025-12-02 09:51:49.248]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-02 09:51:49.250]	    | error: Please commit or stash them.
+[2025-12-02 09:51:49.252]	  "tmux-cpu" update fail
+[2025-12-02 09:51:49.254]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-02 09:51:49.255]	    | error: Please commit or stash them.
+[2025-12-02 09:51:49.259]	  "tmux-prefix-highlight" update fail
+[2025-12-02 09:51:49.260]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-02 09:51:49.261]	    | error: Please commit or stash them.
+[2025-12-02 09:51:49.263]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-12-02 09:51:49.330]	Done.
+
+[2025-12-04 15:58:15.600]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-12-04 15:58:15.602]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-12-04 15:58:15.632]	Already installed "tmux-copycat"
+[2025-12-04 15:58:15.633]	Already installed "tmux-cpu"
+[2025-12-04 15:58:15.634]	Already installed "tpm"
+[2025-12-04 15:58:15.635]	Already installed "tmux-continuum"
+[2025-12-04 15:58:15.635]	Already installed "tmux-sensible"
+[2025-12-04 15:58:15.636]	Already installed "tmux-cpu"
+[2025-12-04 15:58:15.637]	Already installed "tmux-prefix-highlight"
+[2025-12-04 15:58:15.638]	Already installed "tmux-battery"
+[2025-12-04 15:58:15.640]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-12-04 15:58:15.653]	Updating all plugins!
+[2025-12-04 15:58:15.654]	
+[2025-12-04 15:58:15.672]	  "tmux-copycat" update fail
+[2025-12-04 15:58:15.674]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-04 15:58:15.675]	    | error: Please commit or stash them.
+[2025-12-04 15:58:15.677]	  "tmux-cpu" update fail
+[2025-12-04 15:58:15.678]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-04 15:58:15.679]	    | error: Please commit or stash them.
+[2025-12-04 15:58:15.681]	  "tmux-continuum" update fail
+[2025-12-04 15:58:15.683]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-04 15:58:15.684]	    | error: Please commit or stash them.
+[2025-12-04 15:58:15.687]	  "tpm" update fail
+[2025-12-04 15:58:15.689]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-04 15:58:15.690]	    | error: Please commit or stash them.
+[2025-12-04 15:58:15.694]	  "tmux-sensible" update fail
+[2025-12-04 15:58:15.695]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-04 15:58:15.696]	    | error: Please commit or stash them.
+[2025-12-04 15:58:15.700]	  "tmux-battery" update fail
+[2025-12-04 15:58:15.701]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-04 15:58:15.702]	    | error: Please commit or stash them.
+[2025-12-04 15:58:15.705]	  "tmux-cpu" update fail
+[2025-12-04 15:58:15.707]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-04 15:58:15.708]	    | error: Please commit or stash them.
+[2025-12-04 15:58:15.712]	  "tmux-prefix-highlight" update fail
+[2025-12-04 15:58:15.714]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-04 15:58:15.715]	    | error: Please commit or stash them.
+[2025-12-04 15:58:15.716]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-12-04 15:58:15.781]	Done.
+
+[2025-12-05 14:45:01.111]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-12-05 14:45:01.112]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-12-05 14:45:01.142]	Already installed "tmux-continuum"
+[2025-12-05 14:45:01.143]	Already installed "tmux-copycat"
+[2025-12-05 14:45:01.144]	Already installed "tpm"
+[2025-12-05 14:45:01.145]	Already installed "tmux-cpu"
+[2025-12-05 14:45:01.146]	Already installed "tmux-cpu"
+[2025-12-05 14:45:01.147]	Already installed "tmux-battery"
+[2025-12-05 14:45:01.148]	Already installed "tmux-sensible"
+[2025-12-05 14:45:01.149]	Already installed "tmux-prefix-highlight"
+[2025-12-05 14:45:01.151]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-12-05 14:45:01.163]	Updating all plugins!
+[2025-12-05 14:45:01.164]	
+[2025-12-05 14:45:01.181]	  "tmux-copycat" update fail
+[2025-12-05 14:45:01.183]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-05 14:45:01.184]	    | error: Please commit or stash them.
+[2025-12-05 14:45:01.186]	  "tmux-cpu" update fail
+[2025-12-05 14:45:01.188]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-05 14:45:01.189]	    | error: Please commit or stash them.
+[2025-12-05 14:45:01.191]	  "tmux-continuum" update fail
+[2025-12-05 14:45:01.193]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-05 14:45:01.194]	    | error: Please commit or stash them.
+[2025-12-05 14:45:01.198]	  "tpm" update fail
+[2025-12-05 14:45:01.200]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-05 14:45:01.201]	    | error: Please commit or stash them.
+[2025-12-05 14:45:01.204]	  "tmux-sensible" update fail
+[2025-12-05 14:45:01.206]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-05 14:45:01.207]	    | error: Please commit or stash them.
+[2025-12-05 14:45:01.210]	  "tmux-battery" update fail
+[2025-12-05 14:45:01.211]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-05 14:45:01.212]	    | error: Please commit or stash them.
+[2025-12-05 14:45:01.215]	  "tmux-cpu" update fail
+[2025-12-05 14:45:01.217]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-05 14:45:01.218]	    | error: Please commit or stash them.
+[2025-12-05 14:45:01.222]	  "tmux-prefix-highlight" update fail
+[2025-12-05 14:45:01.223]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-05 14:45:01.224]	    | error: Please commit or stash them.
+[2025-12-05 14:45:01.226]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-12-05 14:45:01.289]	Done.
+
+[2025-12-06 03:09:11.876]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-12-06 03:09:11.878]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-12-06 03:09:11.909]	Already installed "tmux-copycat"
+[2025-12-06 03:09:11.910]	Already installed "tmux-cpu"
+[2025-12-06 03:09:11.911]	Already installed "tmux-continuum"
+[2025-12-06 03:09:11.912]	Already installed "tpm"
+[2025-12-06 03:09:11.912]	Already installed "tmux-sensible"
+[2025-12-06 03:09:11.913]	Already installed "tmux-prefix-highlight"
+[2025-12-06 03:09:11.914]	Already installed "tmux-battery"
+[2025-12-06 03:09:11.915]	Already installed "tmux-cpu"
+[2025-12-06 03:09:11.917]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-12-06 03:09:11.929]	Updating all plugins!
+[2025-12-06 03:09:11.930]	
+[2025-12-06 03:09:11.949]	  "tmux-copycat" update fail
+[2025-12-06 03:09:11.951]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-06 03:09:11.952]	    | error: Please commit or stash them.
+[2025-12-06 03:09:11.953]	  "tmux-cpu" update fail
+[2025-12-06 03:09:11.955]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-06 03:09:11.956]	    | error: Please commit or stash them.
+[2025-12-06 03:09:11.960]	  "tmux-continuum" update fail
+[2025-12-06 03:09:11.961]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-06 03:09:11.962]	    | error: Please commit or stash them.
+[2025-12-06 03:09:11.964]	  "tpm" update fail
+[2025-12-06 03:09:11.966]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-06 03:09:11.967]	    | error: Please commit or stash them.
+[2025-12-06 03:09:11.971]	  "tmux-sensible" update fail
+[2025-12-06 03:09:11.972]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-06 03:09:11.974]	    | error: Please commit or stash them.
+[2025-12-06 03:09:11.977]	  "tmux-battery" update fail
+[2025-12-06 03:09:11.979]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-06 03:09:11.980]	    | error: Please commit or stash them.
+[2025-12-06 03:09:11.982]	  "tmux-cpu" update fail
+[2025-12-06 03:09:11.984]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-06 03:09:11.985]	    | error: Please commit or stash them.
+[2025-12-06 03:09:11.989]	  "tmux-prefix-highlight" update fail
+[2025-12-06 03:09:11.990]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-06 03:09:11.991]	    | error: Please commit or stash them.
+[2025-12-06 03:09:11.993]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-12-06 03:09:12.061]	Done.
+
+[2025-12-09 10:25:58.525]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum
+[2025-12-09 10:25:58.528]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-12-09 10:25:58.554]	Already installed "tmux-copycat"
+[2025-12-09 10:25:58.555]	Already installed "tmux-sensible"
+[2025-12-09 10:25:58.556]	Already installed "tmux-cpu"
+[2025-12-09 10:25:58.557]	Already installed "tpm"
+[2025-12-09 10:25:58.559]	Already installed "tmux-prefix-highlight"
+[2025-12-09 10:25:58.560]	Already installed "tmux-cpu"
+[2025-12-09 10:25:58.561]	Already installed "tmux-continuum"
+[2025-12-09 10:25:58.562]	Already installed "tmux-battery"
+[2025-12-09 10:25:58.563]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-12-09 10:25:58.577]	Updating all plugins!
+[2025-12-09 10:25:58.578]	
+[2025-12-09 10:25:58.596]	  "tmux-copycat" update fail
+[2025-12-09 10:25:58.597]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-09 10:25:58.598]	    | error: Please commit or stash them.
+[2025-12-09 10:25:58.601]	  "tmux-cpu" update fail
+[2025-12-09 10:25:58.603]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-09 10:25:58.604]	    | error: Please commit or stash them.
+[2025-12-09 10:25:58.606]	  "tmux-continuum" update fail
+[2025-12-09 10:25:58.608]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-09 10:25:58.609]	    | error: Please commit or stash them.
+[2025-12-09 10:25:58.612]	  "tpm" update fail
+[2025-12-09 10:25:58.614]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-09 10:25:58.615]	    | error: Please commit or stash them.
+[2025-12-09 10:25:58.617]	  "tmux-sensible" update fail
+[2025-12-09 10:25:58.619]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-09 10:25:58.620]	    | error: Please commit or stash them.
+[2025-12-09 10:25:58.624]	  "tmux-battery" update fail
+[2025-12-09 10:25:58.626]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-09 10:25:58.627]	    | error: Please commit or stash them.
+[2025-12-09 10:25:58.628]	  "tmux-cpu" update fail
+[2025-12-09 10:25:58.630]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-09 10:25:58.631]	    | error: Please commit or stash them.
+[2025-12-09 10:25:58.634]	  "tmux-prefix-highlight" update fail
+[2025-12-09 10:25:58.636]	    | error: cannot pull with rebase: You have unstaged changes.
+[2025-12-09 10:25:58.637]	    | error: Please commit or stash them.
+[2025-12-09 10:25:58.638]	Invoking /home/jpaiva/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-12-09 10:25:58.707]	Done.
+
